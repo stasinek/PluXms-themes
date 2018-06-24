@@ -29,6 +29,9 @@
                                     <li class="meta-comments comment-scroll">
                                         <span class="meta-seperator">/</span><?php $plxShow->artNbCom(); ?> 
 									</li>
+                                    <li class="meta-likes likes-scroll">
+                                        <span class="meta-seperator">/</span><?php $plxShow->artNbRating(); ?> 
+                                    </li>
                                 </ul>
                             </header>
                             <div class="loop-entry-content entry clr">

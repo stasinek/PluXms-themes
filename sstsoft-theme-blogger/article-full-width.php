@@ -15,6 +15,12 @@
 			<span class="art-nb-com">
 				<a href="<?php $plxShow->artUrl(); ?>#comments" title="<?php $plxShow->artNbCom(); ?>"><?php $plxShow->artNbCom(); ?></a>
 			</span>
+			<span class="art-nb-likes">
+				<a href="<?php $plxShow->artUrl(); ?>#comments" title="<?php $plxShow->artNbLikes(); ?>"><?php $plxShow->artNbLikes(); ?></a>
+			</span>
+			<span class="art-nb-hates">
+				<a href="<?php $plxShow->artUrl(); ?>#comments" title="<?php $plxShow->artNbHates(); ?>"><?php $plxShow->artNbLikes(); ?></a>
+			</span>
 		</small>
 	</header>
 	<article class="entry clr">

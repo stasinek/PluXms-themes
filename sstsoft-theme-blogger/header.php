@@ -4,28 +4,25 @@
 <html lang="<?php $plxShow->defaultLang() ?>">
 <head>
 	<meta charset="<?php $plxShow->charset('min'); ?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php $plxShow->pageTitle(); ?></title>
 	<?php $plxShow->meta('description') ?>
 	<?php $plxShow->meta('keywords') ?>
 	<?php $plxShow->meta('author') ?>
 	<link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
-	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/plucss.css" media="screen"/>
+	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" />
+	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 	<link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/theme.css" media="screen"/>
 	<?php $plxShow->templateCss() ?>
 	<?php $plxShow->pluginsCss() ?>
-	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" />
-	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='stylesheet' id='wpex-style-css' href='<?php $plxShow->template(); ?>/css/style.css?ver=2.0.0' type='text/css' media='all' />
-        <link rel='stylesheet' id='wpex-style-css' href='<?php $plxShow->template(); ?>/css/styles.css?ver=2.0.0' type='text/css' media='all' />
-        <link rel='stylesheet' id='wpex-responsive-css' href='<?php $plxShow->template(); ?>/css/responsive.css?ver=2.0.0' type='text/css' media='all' />
-        <link rel='stylesheet' id='wpex-font-awesome-css' href='<?php $plxShow->template(); ?>/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
-        <link rel='stylesheet' id='wpex-google-font-noto-serif-css' href='http://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=4.8' type='text/css' media='all' />
-        <link rel='stylesheet' id='wpex-google-font-source-sans-pro-css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic&#038;subset=latin%2Cvietnamese%2Clatin-ext&#038;ver=4.8' type='text/css' media='all' />
-        <script type='text/javascript' src='<?php $plxShow->template(); ?>/js/jquery.js'></script>
-        <script type='text/javascript' src='<?php $plxShow->template(); ?>/js/jquery-migrate.min.js'></script>
-		<!-- Matomo -->
+    <link rel='stylesheet' id='wpex-font-awesome-css' href='<?php $plxShow->template(); ?>/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpex-responsive-css' href='<?php $plxShow->template(); ?>/css/responsive.css?ver=2.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpex-google-font-noto-serif-css' href='http://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C700%2C400italic%2C700italic&#038;ver=4.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpex-google-font-source-sans-pro-css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic&#038;subset=latin%2Cvietnamese%2Clatin-ext&#038;ver=4.8' type='text/css' media='all' />
+    <script type='text/javascript' src='<?php $plxShow->template(); ?>/js/jquery.js'></script>
+    <script type='text/javascript' src='<?php $plxShow->template(); ?>/js/jquery-migrate.min.js'></script>
+<!-- Matomo -->
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */

@@ -21,6 +21,9 @@
 								<li class="meta-comments comment-scroll">
 									<span class="meta-seperator">/</span><?php $plxShow->artNbCom(); ?> 
 								</li>
+								<li class="meta-likes likes-scroll">
+									<span class="meta-seperator">/</span><?php $plxShow->artNbRating(); ?> 
+								</li>
 							</ul>
 						</header>
 						<!-- #page-header -->
@@ -29,6 +32,9 @@
                         </div>
                         <!-- .entry -->
                         <footer class="entry-footer">
+						<!--
+						<a class="likes add-like" href=""><?php echo L_ADD_LIKE?></a>|<a class="hates add-hate" href=""><?php echo L_ADD_HATE;?></a>
+						-->
                         </footer>
                         <!-- .entry-footer -->
                     </article>
