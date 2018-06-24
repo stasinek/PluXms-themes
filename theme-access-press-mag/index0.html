@@ -1,0 +1,1086 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://demo.accesspressthemes.com/accesspress-mag/xmlrpc.php" />
+
+<title>Accesspress Mag Demo &#8211; Magazine WordPress Theme</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='stylesheet' id='ap-front-styles-css'  href='./index0_files/frontend-style.css?ver=2.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='apsc-font-awesome-css'  href='./index0_files/font-awesome.min.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='apsc-frontend-css-css'  href='./index0_files/frontend.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aps-animate-css-css'  href='./index0_files/animate.css?ver=1.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='aps-frontend-css-css'  href='./index0_files/frontend.css?ver=1.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-font-awesome-css'  href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-font-opensans-css'  href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='apss-frontend-css-css'  href='./index0_files/frontend.css?ver=4.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='aptf-bxslider-css'  href='./index0_files/jquery.bxslider.css?ver=1.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aptf-front-css-css'  href='./index0_files/frontend.css?ver=1.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aptf-font-css-css'  href='./index0_files/fonts.css?ver=1.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ajax-load-more-css'  href='./index0_files/ajax-load-more.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='./index0_files/styles.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ticker-style-css'  href='./index0_files/ticker-style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C300%7COswald%3A400%2C700%2C300%7CDosis%3A400%2C300%2C500%2C600%2C700&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='./index0_files/animate.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-font-css'  href='./index0_files/font-awesome.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-mag-style-css'  href='./index0_files/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='./index0_files/responsive.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='accesspress-mag-nivolightbox-style-css'  href='./index0_files/nivo-lightbox.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='scroll-triggered-boxes-css'  href='./index0_files/styles.min.css?ver=2.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='./index0_files/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='./index0_files/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='./index0_files/frontend.js?ver=1.5.0'></script>
+<script type='text/javascript' src='./index0_files/jquery.bxslider.min.js?ver=1.4.2'></script>
+<script type='text/javascript' src='./index0_files/frontend.js?ver=1.4.2'></script>
+<script type='text/javascript' src='./index0_files/wow.min.js?ver=1.0.1'></script>
+<script type='text/javascript' src='./index0_files/custom-scripts.js?ver=1.0.1'></script>
+
+    <script type="text/javascript">
+        jQuery(function($){
+            if( $('body').hasClass('rtl') ){
+                var directionClass = 'rtl';
+            } else {
+                var directionClass = 'ltr';
+            }
+        
+        /*--------------For Home page slider-------------------*/
+        
+            $("#homeslider").bxSlider({
+                mode: 'horizontal',
+                controls: true,
+                pager: false,
+                pause: 5000,
+                speed: 1500,
+                auto: false                                      
+            });
+            
+            $("#homeslider-mobile").bxSlider({
+                mode: 'horizontal',
+                controls: true,
+                pager: false,
+                pause: 5000,
+                speed: 1000,
+                auto: false                                        
+            });
+
+        /*--------------For news ticker----------------*/
+
+                        $('#apmag-news').ticker({
+                speed: 0.10,
+                feedType: 'xml',
+                displayType: 'reveal',
+                htmlFeed: true,
+                debugMode: true,
+                fadeInSpeed: 600,
+                //displayType: 'fade',
+                pauseOnItems: 4000,
+                direction: directionClass,
+                titleText: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+            });
+                        
+            });
+    </script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css">
+/* Custom Styles for Box 379 */
+.stb-379 {
+background: #edf9ff !important;
+border-color: #dd7575 !important;
+border-width: 1px !important;
+max-width: 401px;
+@media ( max-width: 401px ) { #stb-379 { display: none !important; } }
+}
+
+.stb {
+ padding: 0px;
+}</style>
+
+</head>
+
+<body class="home page page-id-10 page-template page-template-home-page page-template-home-page-php page-right-sidebar fullwidth-layout group-blog">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+      
+	
+    <header id="masthead" class="site-header">    
+    
+                <div class="top-menu-wrapper has_menu clearfix">
+            <div class="apmag-container">
+                        <div class="current-date">Friday, March 25, 2016</div>
+                           
+                <nav id="top-navigation" class="top-main-navigation">
+                            <button class="menu-toggle hide" aria-controls="menu" aria-expanded="false">Top Menu</button>
+                            <div class="top_menu_left"><ul id="menu-top-menu" class="menu"><li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://demo.accesspressthemes.com/accesspress-mag/about-us/">About Us</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://demo.accesspressthemes.com/accesspress-mag/contact-us/">Contact US</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://demo.accesspressthemes.com/accesspress-mag/submit-news/">Submit News</a></li>
+<li id="menu-item-390" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-390"><a href="http://demo.accesspressthemes.com/accesspress-mag/category/blog/">Blog</a></li>
+<li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-295"><a href="http://accesspressthemes.com/support/forum/themes/free-themes/theme-accesspress-mag/">Forum</a></li>
+</ul></div>                </nav><!-- #site-navigation -->
+                                
+                <nav id="top-right-navigation" class="top-right-main-navigation">
+                            <button class="menu-toggle hide" aria-controls="top-right-menu" aria-expanded="false">Top Menu Right</button>
+                            <div class="top_menu_right"><ul id="menu-top-menu-right" class="menu"><li id="menu-item-68" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a href="http://accesspressthemes.com/accesspress-mag/wp-admin">Login</a></li>
+</ul></div>                </nav><!-- #site-navigation -->
+                        </div><!-- .apmag-container -->
+        </div><!-- .top-menu-wrapper -->
+        
+           <div class="apmag-news-ticker">
+        <div class="apmag-container">
+            <ul id="apmag-news" class="js-hidden">
+                               <li class="news-item"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/">Whitewater Rafting Day Trip from New York in the East</a></li>
+                               <li class="news-item"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/">Zeta Architecture: Hexagon is the new circle in 2016</a></li>
+                               <li class="news-item"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/">Designer fashion show kicks off Variety Week</a></li>
+                               <li class="news-item"><a href="http://demo.accesspressthemes.com/accesspress-mag/amazons-apple-watch-killer-will-be-free-and-sell-you-everything/">Amazon’s Apple Watch killer will be free and sell you everything</a></li>
+                               <li class="news-item"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-to-watch/">Designer to Watch</a></li>
+                          </ul>
+        </div><!-- .apmag-container -->
+   </div><!-- .apmag-news-ticker -->
+            
+        <div class="logo-ad-wrapper clearfix">
+            <div class="apmag-container">
+        		<div class="site-branding">
+                    <div class="sitelogo-wrap">  
+                                                <a href="http://demo.accesspressthemes.com/accesspress-mag/">
+                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/mag-logo.png" alt="Accesspress Mag" title="Accesspress Mag" />
+                        </a>
+                                                <meta itemprop="name" content="Accesspress Mag Demo" />
+                    </div><!-- .sitelogo-wrap -->
+                    <div class="sitetext-wrap">  
+                        <a href="http://demo.accesspressthemes.com/accesspress-mag/" rel="home">
+                        <h1 class="site-title">Accesspress Mag Demo</h1>
+                        <h2 class="site-description">Magazine WordPress Theme</h2>
+                        </a>
+                    </div><!-- .sitetext-wrap -->
+                 </div><!-- .site-branding -->                
+                
+                                    <div class="header-ad">
+                        <aside id="text-14" class="widget widget_text">			<div class="textwidget"><a href="javascript:void(0)"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/08/fashion-banner.png" alt="Banner ad" /></a></div>
+		</aside> 
+                    </div><!--header ad-->
+                                
+                
+            </div><!-- .apmag-container -->
+        </div><!-- .logo-ad-wrapper -->
+    	
+        <nav id="site-navigation" class="main-navigation">
+			<div class="apmag-container">
+                <div class="nav-wrapper">
+                    <div class="nav-toggle hide">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </div>
+        			<div class="menu"><ul id="menu-primary-menu" class="menu"><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-has-children menu-item-38"><a href="http://demo.accesspressthemes.com/accesspress-mag/">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="http://demo.accesspressthemes.com/accesspress-mag/homepage-boxed-layout/">Homepage – boxed layout</a></li>
+	<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://demo.accesspressthemes.com/accesspress-mag/homepage-fullwidth/">Homepage – fullwidth</a></li>
+</ul>
+</li>
+<li id="menu-item-387" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-387"><a href="http://demo.accesspressthemes.com/accesspress-mag/category/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-389" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-389"><a href="http://demo.accesspressthemes.com/accesspress-mag/category/tech-and-gadgets/">Tech</a></li>
+<li id="menu-item-388" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-388"><a href="http://demo.accesspressthemes.com/accesspress-mag/category/travel-guides/">Travel Guides</a></li>
+<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-169"><a href="http://demo.accesspressthemes.com/accesspress-mag/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-175"><a href="http://accesspressthemes.com/accesspress-mag/404">404 Page</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-176"><a href="http://accesspressthemes.com/accesspress-mag/?s=mag">Search Page</a></li>
+	<li id="menu-item-235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-235"><a href="http://accesspressthemes.com/accesspress-mag/archive-pages">Archive pages</a>
+	<ul class="sub-menu">
+		<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="http://demo.accesspressthemes.com/accesspress-mag/archive-default/">Default Category</a></li>
+		<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="http://demo.accesspressthemes.com/accesspress-mag/style1-category/">Style1 Category</a></li>
+	</ul>
+</li>
+	<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-375"><a href="http://demo.accesspressthemes.com/accesspress-mag/post-layout/">Post Layout</a>
+	<ul class="sub-menu">
+		<li id="menu-item-376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-376"><a href="http://accesspressthemes.com/accesspress-mag/designer-to-watch/">Default Layout</a></li>
+		<li id="menu-item-377" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-377"><a href="http://accesspressthemes.com/accesspress-mag/about-the-growing-gap-profits/">Style 1 Layout</a></li>
+	</ul>
+</li>
+	<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="http://demo.accesspressthemes.com/accesspress-mag/page-with-right-sidebar/">Page With Right Sidebar</a></li>
+	<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="http://demo.accesspressthemes.com/accesspress-mag/page-with-left-sidebar/">Page With Left Sidebar</a></li>
+	<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="http://demo.accesspressthemes.com/accesspress-mag/page-with-no-sidebar/">Page With No Sidebar</a></li>
+	<li id="menu-item-300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-300"><a href="http://demo.accesspressthemes.com/accesspress-mag/page-markup-and-formatting/">Page Markup And Formatting</a></li>
+</ul>
+</li>
+<li id="menu-item-364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364"><a href="http://accesspressthemes.com/wordpress-themes/accesspress-mag-pro/">BUY PRO VERSION</a></li>
+<li id="menu-item-365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365"><a href="http://demo.accesspressthemes.com/accesspress-mag-pro/">View MAG Pro</a></li>
+</ul></div>
+</div><!-- .nav-wrapper -->
+
+<div class="search-icon">
+    <i class="fa fa-search"></i>
+    <div class="ak-search">
+        <div class="close">&times;</div>
+     <form action="http://demo.accesspressthemes.com/accesspress-mag/" class="search-form" method="get">
+        <label>
+            <span class="screen-reader-text">Search for:</span>
+            <input type="search" title="Search for:" name="s" value="" placeholder="Search Content..." class="search-field" />
+        </label>
+        <input type="submit" value="Search" class="search-submit" />
+     </form>
+     <div class="overlay-search"> </div> 
+    </div><!-- .ak-search -->
+</div><!-- .search-icon -->
+       <div class="random-post">
+                      <a href="http://demo.accesspressthemes.com/accesspress-mag/strong-growth-and-engagement/" title="View a random post"><i class="fa fa-random"></i></a>
+                 </div><!-- .random-post -->
+                    </div><!-- .apmag-container -->
+		</nav><!-- #site-navigation -->
+        
+	</header><!-- #masthead -->
+    		<div id="content" class="site-content">
+            <section class="slider-wrapper">
+            <div class="apmag-container"> 
+                        <div class="slider-highlight-section">
+            <div class="apmag-slider-area">
+                <div id="homeslider-mobile">                        
+                    <div class="slider">
+                        <a href="http://demo.accesspressthemes.com/accesspress-mag/designer-to-watch/">
+                            <div class="big_slide wow fadeInLeft">
+                                <div class="big-cat-box">
+                                    <span class="cat-name">Lifestyle</span><span class="comment_count"><i class="fa fa-comments"></i>4</span>                                </div><!-- .big-cat-box -->
+                                <div class="slide-image"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/model-600238_1920-765x496.jpg" alt="" /></div>
+                                <div class="mag-slider-caption"><h3 class="slide-title">Designer to Watch</h3></div>                            </div><!-- .big_slide -->
+                        </a>
+                    </div><!-- .slider-->
+                                   
+                    <div class="slider">
+                        <a href="http://demo.accesspressthemes.com/accesspress-mag/the-celtics-delivered-a-nice-pack/">
+                            <div class="big_slide wow fadeInLeft">
+                                <div class="big-cat-box">
+                                    <span class="cat-name">Featured</span><span class="comment_count"><i class="fa fa-comments"></i>0</span>                                </div><!-- .big-cat-box -->
+                                <div class="slide-image"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-tab-765x496.jpg" alt="" /></div>
+                                <div class="mag-slider-caption"><h3 class="slide-title">The Celtics delivered a nice pack</h3></div>                            </div><!-- .big_slide -->
+                        </a>
+                    </div><!-- .slider-->
+                                   
+                    <div class="slider">
+                        <a href="http://demo.accesspressthemes.com/accesspress-mag/living-in-towns-without-light/">
+                            <div class="big_slide wow fadeInLeft">
+                                <div class="big-cat-box">
+                                    <span class="cat-name">Travel Guides</span><span class="comment_count"><i class="fa fa-comments"></i>0</span>                                </div><!-- .big-cat-box -->
+                                <div class="slide-image"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-689137_1920-765x496.jpg" alt="" /></div>
+                                <div class="mag-slider-caption"><h3 class="slide-title">Living in towns without light</h3></div>                            </div><!-- .big_slide -->
+                        </a>
+                    </div><!-- .slider-->
+                                   
+                    <div class="slider">
+                        <a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/">
+                            <div class="big_slide wow fadeInLeft">
+                                <div class="big-cat-box">
+                                    <span class="cat-name">Tech and Gadgets</span><span class="comment_count"><i class="fa fa-comments"></i>0</span>                                </div><!-- .big-cat-box -->
+                                <div class="slide-image"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/camera-408258_1280-765x496.jpg" alt="" /></div>
+                                <div class="mag-slider-caption"><h3 class="slide-title">Big leap in 4K video streaming tech</h3></div>                            </div><!-- .big_slide -->
+                        </a>
+                    </div><!-- .slider-->
+           </div>            </div><!-- .apmag-slider-area -->
+            <div class="beside-highlight-area">
+                <div class="highlighted_posts_area">                            <div class="signle-highlight-post">
+                                <figure class="highlighted-post-image">
+                                    <a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/" title="Whitewater Rafting Day Trip from New York in the East"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/kayak-282329_1280-326x235.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/">Whitewater Rafting Day Trip from New York in the East</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/" rel="bookmark"><time class="entry-date published" datetime="2016-02-04T09:38:13+00:00">February 4, 2016</time><time class="updated" datetime="2016-02-04T09:28:56+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div>
+                            </div><!--. signle-highlight-post -->
+                                            <div class="signle-highlight-post">
+                                <figure class="highlighted-post-image">
+                                    <a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/" title="Zeta Architecture: Hexagon is the new circle in 2016"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/leave-room-825316_1280-326x235.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/">Zeta Architecture: Hexagon is the new circle in 2016</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:28:27+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div>
+                            </div><!--. signle-highlight-post -->
+                                            <div class="signle-highlight-post">
+                                <figure class="highlighted-post-image">
+                                    <a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/" title="Designer fashion show kicks off Variety Week"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/fashion-1063100_1280-326x235.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/">Designer fashion show kicks off Variety Week</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:25:37+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div>
+                            </div><!--. signle-highlight-post -->
+                                            <div class="signle-highlight-post">
+                                <figure class="highlighted-post-image">
+                                    <a href="http://demo.accesspressthemes.com/accesspress-mag/amazons-apple-watch-killer-will-be-free-and-sell-you-everything/" title="Amazon’s Apple Watch killer will be free and sell you everything"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/ipad-820272_1280-326x235.jpg" alt="" /></a>
+                                </figure>
+                                <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/amazons-apple-watch-killer-will-be-free-and-sell-you-everything/">Amazon’s Apple Watch killer will be free and sell you everything</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/amazons-apple-watch-killer-will-be-free-and-sell-you-everything/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:23:10+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div>
+                            </div><!--. signle-highlight-post -->
+                </div>            </div><!-- .beside-highlight-area -->
+        </div><!-- .slider-highlight-section -->
+            </div><!-- .apmag-container -->
+        </section><!-- .slider-wrapper -->
+        <div class="apmag-container">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+            <section class="first-block wow fadeInUp clearfix" data-wow-delay="0.5s">
+                                <div class="first-block-wrapper">
+                    <h3 class="block-cat-name"> 
+                        <span>Don&#039;t Miss</span>
+                    </h3>
+                    <div class="block-post-wrapper clearfix">
+                                            <div class="toppost-wrapper">                        <div class="single_post clearfix top-post non-zoomin">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-691105_1280-554x305.jpg" alt="" /></a>
+                                     <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/"><i class="fa fa-external-link"></i></a>                                </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/">A Fashion Editor&#8217;s Secret Styling Tricks</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T09:29:26+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:39:42+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                <div class="post-content"><p>I'm Lauren, associate editor for MarieClaire.com. Come springtime, I like to revamp my wardrobe with a mix of breezy-chic staples and a slew of new</p></div>                        </div><!-- .single_post -->
+                                                                                            <div class="single_post clearfix top-post non-zoomin">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/strong-growth-and-engagement/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/ship-484696_1280-554x305.png" alt="" /></a>
+                                     <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/strong-growth-and-engagement/"><i class="fa fa-external-link"></i></a>                                </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/strong-growth-and-engagement/">Strong growth and engagement</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/strong-growth-and-engagement/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:55:22+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-21T05:52:04+00:00">April 21, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                <div class="post-content"><p>Probo illud eam eu, ex vidit evertitur conceptam sed! Eu vel omittam percipitur. Facer explicari quaerendum te usu, et expetendis assueverit mel. His an etiam</p></div>                        </div><!-- .single_post -->
+                        <div class="clearfix"></div></div>                                            <div class="bottompost-wrapper">                        <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/popular-people-who-everyone-love/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/wcportland2010-05-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/popular-people-who-everyone-love/">Popular people who everyone love</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/popular-people-who-everyone-love/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:49:12+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:41:41+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                                                                            <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/vienna-581427_1280-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/">Night city and bridge best photography</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:41:13+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T13:02:19+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                        <div class="clearfix"></div>                                                                    <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/portland-is-known-as-one-of-the-most-bicycle-friendly-cities/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/finch2jpg-de263808003deec8jpg-1e19b1ab1169fb6c-177x118.jpg" alt="finch2" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/portland-is-known-as-one-of-the-most-bicycle-friendly-cities/">Portland is known as one of the most bicycle friendly cities</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/portland-is-known-as-one-of-the-most-bicycle-friendly-cities/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:10:17+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-21T05:53:16+00:00">April 21, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                                                                            <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/how-to-make-people-love-you-best-tips-and-tricks/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/brothers-457234_1920-177x118.jpg" alt="brothers-love" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/how-to-make-people-love-you-best-tips-and-tricks/">How to make people love you best tips and tricks</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/how-to-make-people-love-you-best-tips-and-tricks/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T05:21:06+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-16T10:18:48+00:00">April 16, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                        <div class="clearfix"></div>                                        </div><!-- .block-post-wrapper -->
+                </div><!-- .first-block-wrapper -->
+                            </section><!-- .first-block -->
+                    
+            <section class="second-block clearfix wow fadeInLeft" data-wow-delay="0.5s">
+                                <div class="second-block-wrapper">
+                    <h3 class="block-cat-name"> 
+                        <span>Tech and Gadgets</span>
+                    </h3>
+                    <div class="block-post-wrapper clearfix">
+                                            <div class="leftposts-wrapper">                        <div class="single_post clearfix first-post non-zoomin">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/network-technologies-would-give-us-more-powerfull-servers/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/datacenter-286386_1280-554x305.jpg" alt="datacenter" /></a>
+                                     <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/network-technologies-would-give-us-more-powerfull-servers/"><i class="fa fa-external-link"></i></a>                                </div><!--. post-image-->                                    
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/network-technologies-would-give-us-more-powerfull-servers/">Network Technologies Would Give Us More Powerfull Servers</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/network-technologies-would-give-us-more-powerfull-servers/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:02:21+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:16:46+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                <div class="post-content"><p>Probo illud eam eu, ex vidit evertitur conceptam sed! Eu vel omittam percipitur. Facer explicari quaerendum te usu, et expetendis assueverit mel. His an etiam</p></div>                        </div><!-- .single_post -->
+                        </div>                    
+                                            <div class="rightposts-wrapper">                        <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/best-work-space-design-of-2015/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/mac-glasses-177x118.jpg" alt="mac-glasses" /></a>
+                                                                    </div><!--. post-image-->                                    
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/best-work-space-design-of-2015/">Best Work-Space Design Of 2015</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/best-work-space-design-of-2015/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T07:16:04+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:29:00+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                            
+                                                                    <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/camera-408258_1280-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->                                    
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/">Big leap in 4K video streaming tech</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T07:06:36+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T13:02:12+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                            
+                                                                    <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/us-nuclear-fears-block-intel-china-supercomputer-update/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/CSCS-Piz-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->                                    
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/us-nuclear-fears-block-intel-china-supercomputer-update/">US nuclear fears block Intel China supercomputer update</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/us-nuclear-fears-block-intel-china-supercomputer-update/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T07:01:38+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:29:53+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                            
+                                                                    <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/enjoyment-with-gadget/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/friends-409403_1920-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->                                    
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/enjoyment-with-gadget/">Enjoyment with Gadget</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/enjoyment-with-gadget/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:10:55+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:30:13+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                        </div>                    
+                                        </div><!-- .block-post-wrapper -->
+                </div><!-- .second-block-wrapper -->
+                            </section><!-- .second-block -->
+
+                            <div class="homepage-middle-ad wow flipInX" data-wow-delay="1s">
+                    <aside id="text-12" class="widget widget_text widget-ads">			<div class="textwidget"><a href="javascript:void(0)"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/08/sport-banner.png" alt="Banner ad" /></a></div>
+		</aside> 
+                </div>
+            
+            <section class="third-block clearfix wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="first-block-wrapper">
+                    <h3 class="block-cat-name">
+                        <span>Travel Guides</span>
+                    </h3>
+                    <div class="block-post-wrapper clearfix">
+                                            <div class="toppost-wrapper">                        <div class="single_post clearfix top-post non-zoomin">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/living-in-towns-without-light/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-689137_1920-554x305.jpg" alt="" /></a>
+                                     <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/living-in-towns-without-light/"><i class="fa fa-external-link"></i></a>                                </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/living-in-towns-without-light/">Living in towns without light</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/living-in-towns-without-light/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:56:05+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-20T11:59:12+00:00">April 20, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                <div class="post-content"><p>The rising and setting of the sun controls many of our daily rituals, from when we eat breakfast in the morning to when we wind</p></div>                        </div><!-- .single_post -->
+                                                                                        <div class="single_post clearfix top-post non-zoomin">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/C_EDF08_Murphy_Irish_065-554x305.jpg" alt="" /></a>
+                                     <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/"><i class="fa fa-external-link"></i></a>                                </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/">The secret world of Irish dance</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:42:55+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:32:12+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                <div class="post-content"><p>Meet the artists who are putting a distinctly New York spin on traditional Irish craic, all in the lead up to the largest Irish parade</p></div>                        </div><!-- .single_post -->
+                        <div class="clearfix"></div></div>                                        <div class="bottompost-wrapper">                        <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/nepals-year-round-trekking-route/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/lakes-robert-271997_1920-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/nepals-year-round-trekking-route/">Nepal&#8217;s year-round trekking route</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/nepals-year-round-trekking-route/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:36:06+00:00">April 13, 2015</time><time class="updated" datetime="2015-07-10T11:20:28+00:00">July 10, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                                                                        <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/heli-skiing-177x118.jpg" alt="heli-skiing" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/">Heli-skiing on one of Canada’s most remote mountaintops</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:16:24+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:32:37+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                        <div class="clearfix"></div>                                                                <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/vienna-581427_1280-177x118.jpg" alt="" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/">Night city and bridge best photography</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:41:13+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T13:02:19+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                                                                                        <div class="single_post clearfix ">
+                               
+                                <div class="post-image"><a href="http://demo.accesspressthemes.com/accesspress-mag/portland-is-known-as-one-of-the-most-bicycle-friendly-cities/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/finch2jpg-de263808003deec8jpg-1e19b1ab1169fb6c-177x118.jpg" alt="finch2" /></a>
+                                                                    </div><!--. post-image-->
+                                                            <div class="post-desc-wrapper">
+                                    <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/portland-is-known-as-one-of-the-most-bicycle-friendly-cities/">Portland is known as one of the most bicycle friendly cities</a></h3>
+                                    <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/portland-is-known-as-one-of-the-most-bicycle-friendly-cities/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:10:17+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-21T05:53:16+00:00">April 21, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .post-desc-wrapper -->
+                                                        </div><!-- .single_post -->
+                        <div class="clearfix"></div></div>                                    </div><!-- .block-post-wrapper -->
+                </div><!-- .first-block-wrapper -->
+                            </section><!-- .third-block -->
+              
+            <section class="forth-block clearfix wow fadeInRight" data-wow-delay="0.5s">
+                                <div class="second-block-wrapper">
+                    <h3 class="block-cat-name">
+                        <span>Fashion and Trends</span>
+                    </h3>
+                    <div class="block-post-wrapper clearfix">
+                                                    <div class="single_post non-zoomin clearfix">
+                                       
+                                        <div class="post-image">
+                                            <a href="http://demo.accesspressthemes.com/accesspress-mag/how-much-do-fashion-editors-spend-on-clothes/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/people-516372_1920-554x305.jpg" alt="" /></a>
+                                            <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/how-much-do-fashion-editors-spend-on-clothes/"><i class="fa fa-external-link"></i></a>
+                                        </div><!--. post-image-->
+                                                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/how-much-do-fashion-editors-spend-on-clothes/">HOW Much Do Fashion Editors Spend On Clothes?!</a></h3>
+                                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/how-much-do-fashion-editors-spend-on-clothes/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T09:47:03+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T07:03:43+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .single_post -->
+                                                    
+                                                    <div class="single_post non-zoomin clearfix">
+                                       
+                                        <div class="post-image">
+                                            <a href="http://demo.accesspressthemes.com/accesspress-mag/the-celtics-delivered-a-nice-pack/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-tab-554x305.jpg" alt="" /></a>
+                                            <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/the-celtics-delivered-a-nice-pack/"><i class="fa fa-external-link"></i></a>
+                                        </div><!--. post-image-->
+                                                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-celtics-delivered-a-nice-pack/">The Celtics delivered a nice pack</a></h3>
+                                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-celtics-delivered-a-nice-pack/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T09:41:45+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:45:25+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .single_post -->
+                                <div class="clearfix"></div>                    
+                                                    <div class="single_post non-zoomin clearfix">
+                                       
+                                        <div class="post-image">
+                                            <a href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-691105_1280-554x305.jpg" alt="" /></a>
+                                            <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/"><i class="fa fa-external-link"></i></a>
+                                        </div><!--. post-image-->
+                                                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/">A Fashion Editor&#8217;s Secret Styling Tricks</a></h3>
+                                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/a-fashion-editors-secret-styling-tricks/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T09:29:26+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:39:42+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .single_post -->
+                                                    
+                                                    <div class="single_post non-zoomin clearfix">
+                                       
+                                        <div class="post-image">
+                                            <a href="http://demo.accesspressthemes.com/accesspress-mag/the-best-celebrity-shoes-of-the-week/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/higheels-490295_1280-554x305.jpg" alt="" /></a>
+                                            <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/the-best-celebrity-shoes-of-the-week/"><i class="fa fa-external-link"></i></a>
+                                        </div><!--. post-image-->
+                                                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-best-celebrity-shoes-of-the-week/">The Best Celebrity Shoes of the Week</a></h3>
+                                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-best-celebrity-shoes-of-the-week/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T09:20:09+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:46:58+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .single_post -->
+                                <div class="clearfix"></div>                    
+                                                    <div class="single_post non-zoomin clearfix">
+                                       
+                                        <div class="post-image">
+                                            <a href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/C_EDF08_Murphy_Irish_065-554x305.jpg" alt="" /></a>
+                                            <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/"><i class="fa fa-external-link"></i></a>
+                                        </div><!--. post-image-->
+                                                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/">The secret world of Irish dance</a></h3>
+                                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-secret-world-of-irish-dance/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:42:55+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:32:12+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .single_post -->
+                                                    
+                                                    <div class="single_post non-zoomin clearfix">
+                                       
+                                        <div class="post-image">
+                                            <a href="http://demo.accesspressthemes.com/accesspress-mag/next-in-2015-fashion-industry/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/suit-691849_1920-554x305.jpg" alt="" /></a>
+                                            <a class="big-image-overlay" href="http://demo.accesspressthemes.com/accesspress-mag/next-in-2015-fashion-industry/"><i class="fa fa-external-link"></i></a>
+                                        </div><!--. post-image-->
+                                                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/next-in-2015-fashion-industry/">Next in 2015 fashion industry?</a></h3>
+                                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/next-in-2015-fashion-industry/" rel="bookmark"><time class="entry-date published" datetime="2015-03-13T09:10:58+00:00">March 13, 2015</time><time class="updated" datetime="2015-11-23T07:12:13+00:00">November 23, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                                </div><!-- .single_post -->
+                                <div class="clearfix"></div>                    
+                                        </div><!-- .block-post-wrapper -->
+                </div><!-- .forth-block-wrapper -->
+                              </section><!-- .forth-block -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<div id="secondary-right-sidebar" class="widget-area" role="complementary">
+    <div id="secondary" class="secondary-wrapper">
+                <div id="home-top-sidebar" class="widget-area wow fadeInUp" data-wow-delay="0.5s" role="complementary">
+        	<aside id="apsc_widget-2" class="widget widget_apsc_widget"><h1 class="widget-title"><span>Social</span></h1><div class="apsc-icons-wrapper clearfix apsc-theme-2" >
+                <div class="apsc-each-profile">
+                                        <a  class="apsc-facebook-icon clearfix" href="http://facebook.com/AccessPressThemes" target="_blank">
+                            <div class="apsc-inner-block">
+                                <span class="social-icon"><i class="fa fa-facebook apsc-facebook"></i><span class="media-name">Facebook</span></span>
+                                <span class="apsc-count">6,016</span><span class="apsc-media-type">Fans</span>
+                            </div>
+                        </a>
+                                        </div>            <div class="apsc-each-profile">
+                                        <a  class="apsc-twitter-icon clearfix"  href="http://twitter.com/@apthemes" target="_blank">
+                            <div class="apsc-inner-block">
+                                <span class="social-icon"><i class="fa fa-twitter apsc-twitter"></i><span class="media-name">Twitter</span></span>
+                                <span class="apsc-count">537</span><span class="apsc-media-type">Followers</span>
+                            </div>
+                        </a>
+                                </div>            <div class="apsc-each-profile">
+                                        <a  class="apsc-google-plus-icon clearfix" href="https://plus.google.com/+BBCNews" target="_blank">
+                            <div class="apsc-inner-block">
+                                <span class="social-icon"><i class="apsc-googlePlus fa fa-google-plus"></i><span class="media-name">google+</span></span>
+                                <span class="apsc-count">9,442,254</span><span class="apsc-media-type">Followers</span>
+                            </div>
+                        </a>
+                                    </div>            <div class="apsc-each-profile">
+                                        <a class="apsc-youtube-icon clearfix" href="https://www.youtube.com/user/accesspressthemes" target="_blank">
+                            <div class="apsc-inner-block">
+                                <span class="social-icon"><i class="apsc-youtube fa fa-youtube"></i><span class="media-name">Youtube</span></span>
+                                <span class="apsc-count">600</span><span class="apsc-media-type">Subscriber</span>
+                            </div>
+                        </a>
+                                    </div>            <div class="apsc-each-profile">
+                                        <a class="apsc-soundcloud-icon clearfix" href="https://soundcloud.com/bchettri" target="_blank">
+                            <div class="apsc-inner-block">
+                                <span class="social-icon"><i class="apsc-soundcloud fa fa-soundcloud"></i><span class="media-name">Soundcloud</span></span>
+                                <span class="apsc-count">0</span><span class="apsc-media-type">Followers</span>
+                            </div>
+                        </a>
+                                    </div>            <div class="apsc-each-profile">
+                                        <a class="apsc-comment-icon clearfix" href="javascript:void(0);">
+                            <div class="apsc-inner-block">
+                                <span class="social-icon"><i class="apsc-comments fa fa-comments"></i><span class="media-name">Comment</span></span>
+                                <span class="apsc-count">10</span><span class="apsc-media-type">Comments</span>
+                            </div>
+                        </a>
+                                    </div></div>
+
+</aside>        </div><!-- #secondary -->
+        
+                    <div class="sidebar-top-ad widget-area wow fadeInUp" data-wow-delay="0.5s">
+                <h1 class="sidebar-title"><span>Advertisement</span></h1>
+                <div class="ad_content">
+                    <aside id="text-9" class="widget widget_text">			<div class="textwidget"><a href="javascript:void(0)"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/08/ads-banner-news-300-250.png" alt="Banner ad" /></a></div>
+		</aside> 
+                </div>
+            </div><!--header ad-->
+        
+        
+                <div id="home-middle-sidebar" class="widget-area wow fadeInRight" data-wow-delay="0.5s" role="complementary">
+        	<aside id="accesspress_mag_register_latest_posts-6" class="widget widget_accesspress_mag_register_latest_posts">        <div class="latest-posts clearfix">
+           <h1 class="widget-title"><span>Latest Posts</span></h1>     
+           <div class="latest-posts-wrapper">
+                                    <div class="latest-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/">
+                                                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/kayak-282329_1280-177x118.jpg" alt="" />
+                                                        </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/">Whitewater Rafting Day Trip from New York in the East</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/" rel="bookmark"><time class="entry-date published" datetime="2016-02-04T09:38:13+00:00">February 4, 2016</time><time class="updated" datetime="2016-02-04T09:28:56+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .latest-single-post -->
+                                    <div class="latest-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/">
+                                                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/leave-room-825316_1280-177x118.jpg" alt="" />
+                                                        </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/">Zeta Architecture: Hexagon is the new circle in 2016</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:28:27+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .latest-single-post -->
+                                    <div class="latest-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/">
+                                                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/fashion-1063100_1280-177x118.jpg" alt="" />
+                                                        </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/">Designer fashion show kicks off Variety Week</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:25:37+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .latest-single-post -->
+                           </div><!-- .latest-posts-wrapper -->
+        </div><!-- .latest-posts -->
+    </aside>        </div><!-- #secondary -->
+                
+        <div class="sidebar-editor-pick widget-area wow fadeInUp" data-wow-delay="0.5s">
+            <div class="content-wrapper">
+                            <h1 class="sidebar-title"><span>Editor&#039;s Pick</span></h1>
+            <div class="sidebar-posts-wrapper">                <div class="single_post clearfix first-post non-zoomin">
+                       
+                        <div class="post-image">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/heli-skiing-554x305.jpg" alt="heli-skiing" /></a>
+                             <span class="big-image-overlay"><a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/"><i class="fa fa-external-link"></i></a></span>                        </div><!-- .post-image -->                    
+                                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/">Heli-skiing on one of Canada’s most remote mountaintops</a></h3>
+                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/heli-skiing-on-one-of-canadas-most-remote-mountaintops/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T08:16:24+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:32:37+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        <div class="post-content"><p>Lorem ipsum dolor sit amet, vim enim melius utamur et, impedit signiferumque ex eam! Et est iudico propriae splendide, est dico cibo te? Mea ponderum</p></div>                </div><!-- .single_post -->
+                            <div class="single_post clearfix ">
+                       
+                        <div class="post-image">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/camera-408258_1280-177x118.jpg" alt="" /></a>
+                                                    </div><!-- .post-image -->                    
+                    <div class="post-desc-wrapper">                        <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/">Big leap in 4K video streaming tech</a></h3>
+                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/big-leap-in-4k-video-streaming-tech/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T07:06:36+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T13:02:12+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div>                </div><!-- .single_post -->
+                            <div class="single_post clearfix ">
+                       
+                        <div class="post-image">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/vienna-581427_1280-177x118.jpg" alt="" /></a>
+                                                    </div><!-- .post-image -->                    
+                    <div class="post-desc-wrapper">                        <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/">Night city and bridge best photography</a></h3>
+                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/night-city-and-bridge-best-photography/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:41:13+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T13:02:19+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div>                </div><!-- .single_post -->
+                            <div class="single_post clearfix ">
+                       
+                        <div class="post-image">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/about-the-growing-gap-profits/"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/girl-538134_1920-177x118.jpg" alt="" /></a>
+                                                    </div><!-- .post-image -->                    
+                    <div class="post-desc-wrapper">                        <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/about-the-growing-gap-profits/">About the growing gap profits</a></h3>
+                        <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/about-the-growing-gap-profits/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:10:39+00:00">April 13, 2015</time><time class="updated" datetime="2015-08-03T07:58:24+00:00">August 3, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div>                </div><!-- .single_post -->
+            </div>                
+            </div><!-- .content-wrapper -->
+        </div><!-- .sidebar-editor-pick -->
+        
+                    <div class="sidebar-top-ad widget-area wow fadeInUp" data-wow-delay="0.5s">
+                <h1 class="sidebar-title"><span>Advertisement</span></h1>
+                <div class="ad_content"><aside id="text-10" class="widget widget_text">			<div class="textwidget"><a href="javascript:void(0)"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/08/ads-banner-fashion-300-250.png" alt="Banner ad" /></a></div>
+		</aside></div>
+            </div><!--header ad-->
+                
+                <div id="home-bottom-sidebar" class="widget-area wow fadeInUp" data-wow-delay="0.5s" role="complementary">
+        	<aside id="accesspress_mag_register_random_posts-2" class="widget widget_accesspress_mag_register_random_posts">        <div class="random-posts clearfix">
+           <h1 class="widget-title"><span>Random Articles</span></h1>     
+           <div class="random-posts-wrapper">
+                                    <div class="rand-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/best-work-space-design-of-2015/">
+                                                                <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/mac-glasses-177x118.jpg" alt="mac-glasses" />
+                                                            </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/best-work-space-design-of-2015/">Best Work-Space Design Of 2015</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/best-work-space-design-of-2015/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T07:16:04+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:29:00+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .rand-single-post -->
+                                    <div class="rand-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/designer-to-watch/">
+                                                                <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/model-600238_1920-177x118.jpg" alt="" />
+                                                            </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-to-watch/">Designer to Watch</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-to-watch/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T10:38:27+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-17T09:22:27+00:00">April 17, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>4</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .rand-single-post -->
+                                    <div class="rand-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/fast-furious-7%e2%80%b2-will-retire-not-kill-paul-walkers-brian-oconnor/">
+                                                                <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/lamborghini-618356_1280-177x118.jpg" alt="" />
+                                                            </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/fast-furious-7%e2%80%b2-will-retire-not-kill-paul-walkers-brian-oconnor/">‘Fast &#038; Furious 7′ Will Retire (Not Kill) Paul Walker’s Brian O’Connor</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/fast-furious-7%e2%80%b2-will-retire-not-kill-paul-walkers-brian-oconnor/" rel="bookmark"><time class="entry-date published" datetime="2015-03-17T06:16:15+00:00">March 17, 2015</time><time class="updated" datetime="2015-08-03T05:53:32+00:00">August 3, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .rand-single-post -->
+                           </div><!-- .random-posts-wrapper -->
+        </div><!-- .random-posts -->
+        </aside><aside id="accesspress_mag_article_contributors-3" class="widget widget_accesspress_mag_article_contributors">        <div class="contributors-wrapper clearfix">
+           <h1 class="widget-title"><span>Authors</span></h1>     
+           <div class="single-user-wrapper">
+                                             <div class="single-user">
+                                <a href="http://demo.accesspressthemes.com/accesspress-mag/author/admin/">
+                                    <div class="user-image"><img alt='' src='http://0.gravatar.com/avatar/34c44815242ffe233e9695e55e2c8a95?s=82&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/34c44815242ffe233e9695e55e2c8a95?s=164&amp;d=mm&amp;r=g 2x' class='avatar avatar-82 photo' height='82' width='82' /></div>
+                                    <h3 class="user-name">Alex Turner</h3>
+                                </a>
+                            </div>
+                                            <div class="single-user">
+                                <a href="http://demo.accesspressthemes.com/accesspress-mag/author/alison/">
+                                    <div class="user-image"><img alt='' src='http://2.gravatar.com/avatar/eddd269172b26d01450f5efdf22fa86d?s=82&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/eddd269172b26d01450f5efdf22fa86d?s=164&amp;d=mm&amp;r=g 2x' class='avatar avatar-82 photo' height='82' width='82' /></div>
+                                    <h3 class="user-name">Alison Smith</h3>
+                                </a>
+                            </div>
+                                            <div class="single-user">
+                                <a href="http://demo.accesspressthemes.com/accesspress-mag/author/mark/">
+                                    <div class="user-image"><img alt='' src='http://2.gravatar.com/avatar/81857f91720efde79988fca5493e2910?s=82&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/81857f91720efde79988fca5493e2910?s=164&amp;d=mm&amp;r=g 2x' class='avatar avatar-82 photo' height='82' width='82' /></div>
+                                    <h3 class="user-name">Mark Wilson</h3>
+                                </a>
+                            </div>
+                           </div><!-- .single-user-wrapper -->
+        </div><!-- .contributors-wrapper-->
+    </aside><aside id="newsletterwidget-2" class="widget widget_newsletterwidget"><h1 class="widget-title"><span>Subscribe</span></h1>Subscribe to our newsletter for useful tips and valuable resources.
+
+<script type="text/javascript">
+//<![CDATA[
+if (typeof newsletter_check !== "function") {
+window.newsletter_check = function (f) {
+    var re = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-]{1,})+\.)+([a-zA-Z0-9]{2,})+$/;
+    if (!re.test(f.elements["ne"].value)) {
+        alert("The email is not correct");
+        return false;
+    }
+    for (var i=1; i<20; i++) {
+    if (f.elements["np" + i] && f.elements["np" + i].required && f.elements["np" + i].value == "") {
+        alert("");
+        return false;
+    }
+    }
+    if (f.elements["ny"] && !f.elements["ny"].checked) {
+        alert("You must accept the privacy statement");
+        return false;
+    }
+    return true;
+}
+}
+//]]>
+</script>
+
+<div class="newsletter newsletter-widget">
+
+<script type="text/javascript">
+//<![CDATA[
+if (typeof newsletter_check !== "function") {
+window.newsletter_check = function (f) {
+    var re = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-]{1,})+\.)+([a-zA-Z0-9]{2,})+$/;
+    if (!re.test(f.elements["ne"].value)) {
+        alert("The email is not correct");
+        return false;
+    }
+    for (var i=1; i<20; i++) {
+    if (f.elements["np" + i] && f.elements["np" + i].required && f.elements["np" + i].value == "") {
+        alert("");
+        return false;
+    }
+    }
+    if (f.elements["ny"] && !f.elements["ny"].checked) {
+        alert("You must accept the privacy statement");
+        return false;
+    }
+    return true;
+}
+}
+//]]>
+</script>
+
+<form action="http://demo.accesspressthemes.com/accesspress-mag/?na=s" onsubmit="return newsletter_check(this)" method="post"><input type="hidden" name="nr" value="widget"/><p><input class="newsletter-email" type="email" required name="ne" value="Email" onclick="if (this.defaultValue==this.value) this.value=''" onblur="if (this.value=='') this.value=this.defaultValue"/></p><p><input class="newsletter-submit" type="submit" value="Subscribe"/></p></form></div></aside>        </div><!-- #secondary -->
+         
+    </div><!-- .secondary-wrapper -->
+</div><!--Secondary-right-sidebar--></div>
+
+	</div><!-- #content -->
+    
+	    
+        
+    <footer id="colophon" class="site-footer" role="contentinfo">
+    
+                			<div class="top-footer footer-column4">
+            			<div class="apmag-container">
+                            <div class="footer-block-wrapper clearfix">
+                				<div class="footer-block-1 footer-block wow fadeInLeft" data-wow-delay="0.5s">
+                					                						<aside id="text-15" class="widget widget_text"><h1 class="widget-title"><span>About</span></h1>			<div class="textwidget">AccessPress Mag is clean & modern WordPress magazine theme. It is ideal for newspaper, editorial, online magazine, review site, blog or personal website. It is a cutting-edge, feature-rich FREE WordPress theme and is fully-responsive. Its feature includes: 2 Post templates, 3 sidebar layout, 2 archive templates, author block, in built rating system, large featured images for page/post, social media integration for wider social reach.</div>
+		</aside>                					                				</div>
+                
+                				<div class="footer-block-2 footer-block wow fadeInLeft" data-wow-delay="0.8s" style="display: block;">
+                					                						<aside id="accesspress_mag_register_random_posts-3" class="widget widget_accesspress_mag_register_random_posts">        <div class="random-posts clearfix">
+           <h1 class="widget-title"><span>Random Posts</span></h1>     
+           <div class="random-posts-wrapper">
+                                    <div class="rand-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/the-rankings-are-bestowed-by-the-league/">
+                                                                <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/sports-186836_1920-177x118.jpg" alt="Sports Practice" />
+                                                            </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-rankings-are-bestowed-by-the-league/">The rankings are bestowed by the League</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-rankings-are-bestowed-by-the-league/" rel="bookmark"><time class="entry-date published updated" datetime="2015-04-13T04:31:05+00:00">April 13, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .rand-single-post -->
+                                    <div class="rand-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/top-10-iconic-fashion-moments-in-movies-and-tv/">
+                                                                <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/themes/accesspress-mag/images/no-image-small.jpg" alt="No image" />                            
+                                                            </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/top-10-iconic-fashion-moments-in-movies-and-tv/">Top 10 Iconic Fashion Moments in Movies and TV</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/top-10-iconic-fashion-moments-in-movies-and-tv/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:14:20+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-20T12:51:34+00:00">April 20, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .rand-single-post -->
+                                    <div class="rand-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/the-best-coffee-machines-of-2014/">
+                                                                <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/04/coffee-691464_1280-177x118.jpg" alt="" />
+                                                            </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-best-coffee-machines-of-2014/">The best coffee machines of 2014</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/the-best-coffee-machines-of-2014/" rel="bookmark"><time class="entry-date published" datetime="2015-04-13T06:17:08+00:00">April 13, 2015</time><time class="updated" datetime="2015-04-21T05:53:48+00:00">April 21, 2015</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .rand-single-post -->
+                           </div><!-- .random-posts-wrapper -->
+        </div><!-- .random-posts -->
+        </aside>                						
+                				</div>
+                
+                				<div class="footer-block-3 footer-block wow fadeInLeft" data-wow-delay="1.2s" style="display: block;">
+                					                						<aside id="aptf_widget-3" class="widget widget_aptf_widget"><h1 class="widget-title"><span>Twitter Feed</span></h1><div class="aptf-tweets-wrapper aptf-template-2">
+            <div class="aptf-single-tweet-wrapper">
+                <div class="aptf-tweet-content">
+                    <a href="http://twitter.com/@apthemes" class="aptf-tweet-name" target="_blank">AccessPress Themes</a> <span class="aptf-tweet-username">@apthemes</span>                     <div class="clear"></div>
+                    The BEST free WordPress Photography theme!
+&gt; Multiple homepage layout
+&gt; Multiple gallery layout
+&gt; Multiple blog... <a href="https://t.co/AsFewBuyQT" target="_blank">https://t.co/AsFewBuyQT</a>                      </div><!--tweet content-->
+                    <div class="aptf-tweet-date">
+                        <p class="aptf-timestamp">
+                            <a href="https://twitter.com/@apthemes/status/712626069002711041" target="_blank"> -
+                                2 days ago                            </a>
+                        </p>
+                    </div><!--tweet_date-->
+                                        
+                                    <!--Tweet Action -->
+                    <div class="aptf-tweet-actions-wrapper aptf-tweet-actions">
+    <a href="https://twitter.com/intent/tweet?in_reply_to=712626069002711041" class="aptf-tweet-reply aptf-tweet-action-reply" target="_blank">h</a>
+    <a href="https://twitter.com/intent/retweet?tweet_id=712626069002711041" class="aptf-tweet-retweet aptf-tweet-action-retweet" target="_blank">J</a>
+    <a href="https://twitter.com/intent/favorite?tweet_id=712626069002711041" class="aptf-tweet-fav aptf-tweet-action-favourite" target="_blank">R</a>
+</div>                    <!--Tweet Action -->
+                            </div><!-- single_tweet_wrap-->
+            
+            <div class="aptf-single-tweet-wrapper">
+                <div class="aptf-tweet-content">
+                    <a href="http://twitter.com/@apthemes" class="aptf-tweet-name" target="_blank">AccessPress Themes</a> <span class="aptf-tweet-username">@apthemes</span>                     <div class="clear"></div>
+                    AccessPress Themes LEAK smile emoticon 
+------------------------------------
+We want to try something new,... <a href="https://t.co/f5g7Zviyts" target="_blank">https://t.co/f5g7Zviyts</a>                      </div><!--tweet content-->
+                    <div class="aptf-tweet-date">
+                        <p class="aptf-timestamp">
+                            <a href="https://twitter.com/@apthemes/status/711847784064770049" target="_blank"> -
+                                4 days ago                            </a>
+                        </p>
+                    </div><!--tweet_date-->
+                                        
+                                    <!--Tweet Action -->
+                    <div class="aptf-tweet-actions-wrapper aptf-tweet-actions">
+    <a href="https://twitter.com/intent/tweet?in_reply_to=711847784064770049" class="aptf-tweet-reply aptf-tweet-action-reply" target="_blank">h</a>
+    <a href="https://twitter.com/intent/retweet?tweet_id=711847784064770049" class="aptf-tweet-retweet aptf-tweet-action-retweet" target="_blank">J</a>
+    <a href="https://twitter.com/intent/favorite?tweet_id=711847784064770049" class="aptf-tweet-fav aptf-tweet-action-favourite" target="_blank">R</a>
+</div>                    <!--Tweet Action -->
+                            </div><!-- single_tweet_wrap-->
+            </div>
+
+</aside>                						
+                				</div>
+                                <div class="footer-block-4 footer-block wow fadeInLeft" data-wow-delay="1.2s" style="display: block;">
+                					                						<aside id="accesspress_mag_register_latest_posts-7" class="widget widget_accesspress_mag_register_latest_posts">        <div class="latest-posts clearfix">
+           <h1 class="widget-title"><span>Latest Posts</span></h1>     
+           <div class="latest-posts-wrapper">
+                                    <div class="latest-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/">
+                                                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/kayak-282329_1280-177x118.jpg" alt="" />
+                                                        </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/">Whitewater Rafting Day Trip from New York in the East</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/whitewater-rafting-day-trip-from-new-york-in-the-east/" rel="bookmark"><time class="entry-date published" datetime="2016-02-04T09:38:13+00:00">February 4, 2016</time><time class="updated" datetime="2016-02-04T09:28:56+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .latest-single-post -->
+                                    <div class="latest-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/">
+                                                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/leave-room-825316_1280-177x118.jpg" alt="" />
+                                                        </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/">Zeta Architecture: Hexagon is the new circle in 2016</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/zeta-architecture-hexagon-is-the-new-circle-in-2016/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:28:27+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .latest-single-post -->
+                                    <div class="latest-single-post clearfix">
+                        <div class="post-img">
+                            <a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/">
+                                                            <img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2016/02/fashion-1063100_1280-177x118.jpg" alt="" />
+                                                        </a>
+                        </div><!-- .post-img -->
+                        <div class="post-desc-wrapper">
+                            <h3 class="post-title"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/">Designer fashion show kicks off Variety Week</a></h3>
+                            <div class="block-poston"><span class="posted-on"><a href="http://demo.accesspressthemes.com/accesspress-mag/designer-fashion-show-kicks-off-variety-week/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-04T09:25:37+00:00">February 4, 2016</time></a></span><span class="comment_count"><i class="fa fa-comments"></i>0</span></div>
+                        </div><!-- .post-desc-wrapper -->
+                    </div><!-- .latest-single-post -->
+                           </div><!-- .latest-posts-wrapper -->
+        </div><!-- .latest-posts -->
+    </aside>                						
+                				</div>
+                            </div> <!-- footer-block-wrapper -->
+                         </div><!--apmag-container-->
+                    </div><!--top-footer-->
+                	         
+        <div class="bottom-footer clearfix">
+            <div class="apmag-container">
+                    		<div class="site-info">
+                                            <span class="copyright-symbol"> &copy; 2016</span>
+                     
+                    <a href="http://demo.accesspressthemes.com/accesspress-mag/">
+                    <span class="copyright-text">Accesspress Mag</span> 
+                    </a>           
+        		</div><!-- .site-info -->
+                            <div class="ak-info">
+                    Powered by <a href="http://wordpress.org/">WordPress </a>
+                    | Theme:                     <a title="AccessPress Themes" href="http://accesspressthemes.com">AccessPress Mag</a>
+                </div><!-- .ak-info -->
+                   
+                <div class="subfooter-menu">
+                    <nav id="footer-navigation" class="footer-main-navigation" role="navigation">
+                        <button class="menu-toggle hide" aria-controls="menu" aria-expanded="false">Footer Menu</button>
+                        <div class="footer_menu"><ul id="menu-footer-menu" class="menu"><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://demo.accesspressthemes.com/accesspress-mag/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://demo.accesspressthemes.com/accesspress-mag/advertisement/">Advertisement</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="http://demo.accesspressthemes.com/accesspress-mag/privacy/">Privacy</a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://demo.accesspressthemes.com/accesspress-mag/about-us/">About Us</a></li>
+</ul></div>                    </nav><!-- #site-navigation -->
+                </div><!-- .subfooter-menu -->
+                         </div><!-- .apmag-container -->
+        </div><!-- .bottom-footer -->
+	</footer><!-- #colophon -->
+    <div id="back-top">
+        <a href="#top"><i class="fa fa-arrow-up"></i> <span> Top </span></a>
+    </div>   
+</div><!-- #page -->
+<!-- Scroll Triggered Boxes v2.2.1 - https://wordpress.org/plugins/scroll-triggered-boxes/-->			<div class="stb-container stb-bottom-right-container">
+				<div class="scroll-triggered-box stb stb-379 stb-bottom-right"
+				     id="stb-379"
+				     style="display: none;">
+					<div class="stb-content">
+						<p><a href="http://accesspressthemes.com/wordpress-themes/accesspress-mag-pro/" target="_blank"><img src="http://demo.accesspressthemes.com/accesspress-mag/wp-content/uploads/2015/08/website-popup-ads-287x300.png" alt="website-popup-ads" width="287" height="300" class="alignnone size-medium wp-image-382" alt="website-popup-ads" width="287" height="300" class="alignnone size-medium wp-image-380" /></a></p>
+					</div>
+											<span class="stb-close">&times;</span>
+									</div>
+			</div>
+			<div id="stb-overlay"></div><!-- / Scroll Triggered Box --><script type='text/javascript'>
+/* <![CDATA[ */
+var ap_form_required_message = "This field is required";
+var ap_captcha_error_message = "Sum is not correct.";
+/* ]]> */
+</script>
+<script type='text/javascript' src='./index0_files/frontend.js?ver=2.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var frontend_ajax_object = {"ajax_url":"http:\/\/demo.accesspressthemes.com\/accesspress-mag\/wp-admin\/admin-ajax.php","ajax_nonce":"63fe991867"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='./index0_files/frontend.js?ver=4.0.7'></script>
+<script type='text/javascript' src='./index0_files/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/demo.accesspressthemes.com\/accesspress-mag\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='./index0_files/scripts.js?ver=4.4'></script>
+<script type='text/javascript' src='./index0_files/custom-demo.js?ver=1.0.0'></script>
+<script type='text/javascript' src='./index0_files/jquery.ticker.js?ver=1.0.0'></script>
+<script type='text/javascript' src='./index0_files/nivo-lightbox.js?ver=1.2.0'></script>
+<script type='text/javascript' src='./index0_files/lightbox-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='./index0_files/jquery.bxslider.min.js?ver=4.1.2'></script>
+<script type='text/javascript' src='./index0_files/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='./index0_files/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='./index0_files/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var STB_Global_Options = {"testMode":""};
+var STB_Box_Options = {"379":{"id":379,"title":"","trigger":"percentage","triggerPercentage":20,"triggerElementSelector":"","animation":"slide","cookieTime":0,"autoHide":false,"autoShow":true,"position":"bottom-right","minimumScreenWidth":401,"unclosable":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='./index0_files/script.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='./index0_files/wp-embed.min.js?ver=4.4.2'></script>
+</body>
+</html>
