@@ -1,0 +1,145 @@
+	a:hover,
+	.menu .current-menu-item > a,
+	.menu .current-menu-item,
+	.current-menu-ancestor > a.sf-with-ul,
+	.current-menu-ancestor,
+	footer .textwidget a,
+	.single_post a,
+	#commentform a,
+	.copyrights a:hover,
+	a,
+	footer .widget li a:hover,
+	.menu > li:hover > a,
+	.single_post .post-info a,
+	.post-info a,
+	.readMore a,
+	.reply a,
+	.fn a,
+	.carousel a:hover,
+	.single_post .related-posts a:hover,
+	.sidebar.c-4-12 .textwidget a,
+	footer .textwidget a,
+	.sidebar.c-4-12 a:hover,
+	.title a:hover,
+	li.active a,
+	.trending-articles li a:hover {
+		color: #38b7ee;
+		
+	}
+	
+	.nav-previous a,
+	.nav-next a,
+	.sub-menu,
+	#commentform input#submit,
+	.tagcloud a,
+	#tabber ul.tabs li a.selected,
+	.featured-cat,
+	.mts-subscribe input[type='submit'],
+	.pagination a,
+	.widget .wpt_widget_content #tags-tab-content ul li a,
+	.latestPost-review-wrapper,
+	.pagination .dots,
+	.primary-navigation #wpmm-megamenu .wpmm-posts .wpmm-pagination a,
+	#wpmm-megamenu .review-total-only {
+		background: #38b7ee;
+		color: #fff;
+	}
+	
+	.header-button {
+		background: #38B7EE;
+	}
+	
+	#logo a {
+		color: #2a2a2a;
+	}
+	
+	.menu-item.active a {
+	background: #fff;
+	}
+.menu-item.active a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    bottom: 0px;
+    left: 0;
+    z-index: 1;
+}
+
+.wp-review-53.review-wrapper {
+	width: 100%;
+	float: left
+}
+
+.wp-review-53.review-wrapper,
+.wp-review-53 .review-title,
+.wp-review-53 .review-desc p,
+.wp-review-53 .reviewed-item p {
+	color: #555555;
+}
+
+.wp-review-53 .review-links a {
+	color: #1e73be;
+}
+
+.wp-review-53 .review-links a:hover {
+	color: #555555;
+}
+
+.wp-review-53 .review-list li,
+.wp-review-53.review-wrapper {
+	background: #ffffff;
+}
+
+.wp-review-53 .review-title,
+.wp-review-53 .review-list li:nth-child(2n) {
+	background: #e7e7e7;
+}
+
+.wp-review-53.review-wrapper,
+.wp-review-53 .review-title,
+.wp-review-53 .review-list li,
+.wp-review-53 .review-list li:last-child,
+.wp-review-53 .user-review-area,
+.wp-review-53 .reviewed-item {
+	border-color: #e7e7e7;
+}
+
+/* pour l'indentation des commentaires */
+
+.commentlist li {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding-left: 0;
+    float: left;
+    width: 100%;
+}
+
+
+li.level-0 {
+	margin-left: 0;
+    width: 100%;
+}
+li.level-1 {
+	margin-left: 10%;
+    width: 90%;
+}
+.level-2 {
+	margin-left: 20%;
+    width: 80%;
+}
+.level-3 {
+	margin-left: 30%;
+    width: 70%;
+}
+.level-4 {
+	margin-left: 40%;
+    width: 60%;
+}
+.level-5,
+.level-max {
+	margin-left: 50%;
+    width: 50%;
+}
+

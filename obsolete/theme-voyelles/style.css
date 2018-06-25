@@ -1,0 +1,211 @@
+html {
+	font: 0.9em Georgia, "DejaVu Serif", serif;
+	color: #333333;
+	background: #E7E7DE;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 900px;
+	margin: 20px auto;
+}
+
+#page {
+	margin: 0px 0px 20px 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px 0px 10px 0px;
+}
+
+ul li {
+	margin: 0px 0px 5px 0px;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	background: #91283B;
+	color: #FEFEFE;
+}
+
+h2 {
+	background: #82C46C;
+	border: 1px solid #999999;
+}
+
+#logo {
+	margin: 0px 0px 0px 30px;
+}
+
+#logo img {
+	margin: 0px 0px 20px 0px;
+	border: none;
+}
+
+#page {
+	width: 680px;
+	float: right;
+	border: 1px solid #999999;
+	background: #FEFEFE;
+}
+
+#top {
+	border: 1px solid #999999;
+	background: #008E8E;
+	text-align: right;
+	margin: 20px 20px 0px 20px;
+	padding: 5px;
+}
+
+h1 {
+	font-size: 1.6em;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+h1 a:hover {
+	background: #008E8E;
+}
+
+#sidebar {
+	width: 180px;
+	float: left;
+	text-align: right;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
+#menu a {	
+	display: inline-block;
+	text-decoration: none;
+	background: #FEFEFE;
+	border: 1px solid #999999;
+	padding: 5px 20px;
+	margin: 0px 0px 5px 0px;
+}
+
+#menu a:hover {
+	background: #91283B;
+	color: #FEFEFE;
+}
+
+#menu h2 {
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 20px;
+}
+
+#content {
+	padding: 20px;
+}
+
+#content img {
+	float: right;
+	margin: 0px 0px 20px 20px;
+}
+
+#content h2 {
+	padding: 5px;
+}
+
+#content h2 a:hover {
+	background: #82C46C;
+}
+
+.post-info {
+	padding: 5px;
+	text-align: right;
+}
+
+.post {
+	text-align: justify;
+}
+
+.post p {
+	text-indent: 1.5em;
+}
+
+.embed {
+	text-align: center;
+}
+
+.comment_nb {
+	clear: both;
+	padding: 5px;
+	text-align: right;
+}
+
+#pagination {
+	text-align: center;
+	clear: both;
+}
+
+#footer {
+	margin: 0px 20px 20px 20px;
+	text-align: right;
+	background: #008E8E;
+	border: 1px solid #999999;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 10px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+#comments {
+	padding: 20px;
+}
+
+.info_comment p {
+	text-align: center;
+	background: #008E8E;
+	padding: 5px;
+	border: 1px solid #999999;
+}
+
+#form {
+	padding: 20px;
+}
+
+blockquote p {
+	margin: 5px;
+	padding: 5px;
+	border-left: 10px solid #A98C78;
+	border-right: 10px solid #A98C78;
+}
+
+form {
+	border: 5px solid #A98C78;
+}
+
+fieldset {
+	text-align: center;
+	border: none;
+	margin: auto;
+	padding: 10px;
+}
+
+label {
+	display: block;
+	margin: 2px;
+	padding: 5px;
+}
+
+input {
+	border: 1px solid #999999;
+}
+
+textarea {
+	border: 1px solid #999999;
+}

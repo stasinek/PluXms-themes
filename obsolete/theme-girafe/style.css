@@ -1,0 +1,311 @@
+/* Thème "defaut" Pluxml - Copyright Pluxml.org */  
+
+/* ---------------------
+Html et body
+--------------------- */
+html {
+	font : 75%/1.7em "Lucida sans unicode", Lucida, Tahoma, Arial, sans-serif;
+	color : #555;
+	margin : 0;
+	padding : 0;
+}
+body {
+	margin : 0;
+	padding : 0;
+	background-image: url(img/bg.jpg);
+	background-color: #EDD5AF;
+}
+
+#page {
+	width : 850px;
+	margin : 0;
+	padding : 0 0 0 0;
+	background-color:#E9DDC7; 
+	clear : both;
+}
+
+/* ---------------------
+Styles généraux
+--------------------- */
+h1 {font-size : 1.8em;}
+h2 {font-size : 1.2em;}
+h3 {font-size : 1.1em; margin : 0; padding: 0}
+p {margin : 0; padding: 0}
+a {color : #517CA1; text-decoration: none;}
+a:hover {color : #333;}
+.clearer {clear : both; visibility : hidden; margin : 0; padding : 0;}
+
+/* ---------------------
+Formulaire
+--------------------- */
+fieldset {
+	border : 0;
+}
+label {
+	display : block;
+}
+input, textarea {
+}
+input:focus, textarea:focus {
+	background-color : #FFFFFF;
+	border-left : 1px solid #D4DAE2;
+	border-top : 1px solid #D4DAE2;
+	border-right : 1px solid #C3C9D0;
+	border-bottom : 1px solid #C3C9D0;
+}
+input[type=submit], input[type=reset] {
+	}
+input[type=text] {
+	margin : 0 0 0 5px;
+}
+textarea {
+	width : 95%;
+}
+
+/* ---------------------
+Haut de page (#top)
+--------------------- */
+#top {
+	width : 100%;
+}
+#header {
+	width : 850px;
+	margin : 0;
+	padding : 35px 0 20px 0;
+	background-image: url(img/top.jpg);
+	border-bottom:dashed;
+	border-bottom-color:#ffffff;
+	height: 363px;
+}
+#header h1 { /* Titre et sous-titre du site */
+	margin : 0;
+	font-weight : normal;
+	letter-spacing : 1px;
+	color : #eee;
+	display : inline;
+	padding-right: 20px;
+}
+#top h1 a { /* Lien du titre */
+	text-decoration : none;
+	color : #fff;
+}
+#top h1 a:hover {
+	color : #fff;
+	}
+#header p {
+	display : inline;
+	color : #DDD;
+	padding : 0 0 0 5px;
+}
+#menu {
+	background : #683B26;
+	width: 850px;
+	margin: 0;
+}
+#menu ul {
+	margin : 0 auto; padding : 0;
+	width : 850px;
+	list-style-type : none;
+}
+#menu li {
+	float : left;
+}
+#menu li a {
+	display : block;
+	padding : 4px 10px;
+	color :  #ddd;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-size : 0.85em;
+	letter-spacing : 1px;
+}
+#menu li a:hover, #menu li.active a {
+font-weight:bold;
+}
+
+/* --------------------- 
+Zone de contenu (#content)  
+--------------------- */
+#content { /* Bloc */
+	float : left;
+	width : 834px;
+	margin : 0 0 0 0;
+	padding : 8px;
+}
+#content p {
+	margin-top:10px;
+}
+.post { /* Conteneur de l'article */
+	padding : 0 0 22px 0;
+}
+.title { /* Titre de l'article */
+text-align:center;
+	color : #683B26;
+	font-size : 1.4em;
+	margin : 0 0 0 0;
+	padding : 4px 0;
+	letter-spacing : 2px;
+	border-bottom : 3px dashed #ffffff;
+}
+.title a { /* Lien sur le titre de l'article */
+text-align:center;
+	color : #683B26;
+	text-decoration : none;
+}
+.title a:hover {
+	color : #333;
+}
+.post-info {
+text-align:center;
+	padding : 0 0 0 20px;
+	margin : 0!important;
+}
+.feed_article {
+	padding : 0 0 0 25px;
+	background : url("img/feed-icon-14x14.gif") no-repeat 210px 0.3em;
+	text-align : center;
+}
+.comment_nb {
+	float : right;
+	background : url("img/comment.gif") no-repeat 0 6px;
+	margin : 0!important;
+	padding : 4px 4px 0 20px;
+}
+#pagination { /* Conteneur des liens 'page suivante' et 'page précédente' */
+	text-align : center;
+	margin : 0 0 0 0;
+	padding : 25px 0 10px 0;
+}
+
+/* --------------------- 
+Paneau latéral (#sidebar)  
+--------------------- */
+#sidebar {
+	float : right;
+	width : 200px;
+	padding : 0;
+	margin : 0;
+}
+#sidebar div {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+}
+#sidebar h2 { /* Titre des menus de la sidebar */
+	color : #ffffff;
+	font-size : 1.1em;
+	float:right;
+	margin : 0;
+	padding : 4px 8px;
+}
+#sidebar ul { /* Bloc de liste */
+	margin : 0;
+	padding : 0;
+}
+#sidebar li { /* Elément de liste */
+	list-style-type : none;
+	padding : 4px;
+	border-bottom : 1px dashed #ffffff;
+}
+#sidebar li a { /* Liens dans les listes */
+	color : #ffffff;
+	padding : 0 0 0 18px;
+	text-decoration : none;
+	background : url("img/blue.gif") no-repeat 0 0;
+	}
+#sidebar li:hover, #sidebar li.active {
+}
+#sidebar li a:hover, #sidebar li.active a {
+	color : #ffffff;
+	background : url("img/blue.gif") no-repeat 0 0;
+}
+#syndication li a {
+	display : block;
+	padding : 0 0 0 25px;
+	background : url("img/feed-icon-14x14.gif") no-repeat 5px 0.3em;
+	}
+#syndication li a:hover {
+	background : url("img/feed-icon-14x14.gif") no-repeat 5px 0.3em;
+}
+
+/* ---------------------
+Commentaires (#comments)
+--------------------- */
+#comments h2 {
+	color : #683B26;
+	font-size : 1.2em;
+	margin : 15px 0 10px 0;
+	padding : 4px 0;
+	letter-spacing : 2px;
+	text-align: center;
+}
+.comment {
+	background : #ffffff;
+	margin : 0 0 8px 0;
+	border-bottom: 3px dashed #683B26;
+	border-left: 3px dashed #683B26;
+	border-right: 3px dashed #683B26;
+}
+.comment blockquote {
+	padding : 2px 30px 2px 40px;
+	margin : 0;
+}
+.info_comment {
+	background : #683B26;
+	padding : 4px 8px;
+	color: #FFFFFF;
+}
+p.message_com {
+	text-align : center;
+	font-weight : bold;
+	color : #1F537B;
+	margin : 8px 0 0 0;
+	padding : 4px 0;
+}
+#form h2 {
+	color : #683B26;
+	font-size : 1.2em;
+	margin : 15px 0 0 0;
+	padding : 4px 0;
+	letter-spacing : 2px;
+	border-bottom : 3px dashed #683B26;
+	text-align: center;
+}
+.table {
+margin:auto;
+}
+.hier {
+	position: relative;
+	right: 10px;
+	top: 45px;
+}
+.da {
+	float:right;
+	position: relative;
+	top: 17px;
+	left: 11px;
+}
+.sub {
+text-align:center;
+font-style:italic;
+color:#683B26;
+}
+/* ---------------------
+Pied de page (#footer)
+--------------------- */
+#footer {
+	width :850px;
+	margin : 0;
+	text-align : center;
+	font-size : 0.85em;
+	background : #683B26;
+	color : #FFF;
+	padding : 3px 0;
+}
+#footer a {
+	color : #ddd;
+	text-decoration : none;
+}
+#footer a:hover {
+	border-bottom : 1px dashed;
+}

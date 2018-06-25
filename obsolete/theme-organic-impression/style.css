@@ -1,0 +1,309 @@
+/*
+Template: Organic Impression
+Author: Darren Hester, www.designsbydarren.com
+Released: 03-20-10
+License: Creative Commons Attribution-Noncommercial 3.0
+
+Please visit www.designsbydarren.com/license/ for
+details regarding license and terms of use - Thanks!
+*/
+
+/*====================================================
+|                                                    |
+|                 General Styles                     |
+|                                                    |
+====================================================*/
+
+body {
+	font: 14px/1.6 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+	background: #93806A url(img/bg.jpg) top center no-repeat;
+	color: #4E4740;
+}
+
+a:link, a:visited, a:active  {
+    text-decoration: none;
+    color: #197B30;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #197B30;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#82400F;
+	margin-bottom: 5px;
+}
+
+h1 { font-size: 23px; }
+h2 { font-size: 25px; }
+h3 { font-size: 19px; }
+h4 { font-size: 17px; }
+h5 { font-size: 14px; }
+
+
+p { margin-bottom: 15px; }
+
+ul {
+	margin: 0 0 15px 0;
+	padding: 0;
+	list-style-type: square;
+}
+
+li {
+	margin-left: 20px;
+}
+
+/*====================================================
+|                                                    |
+|                       Header                       |
+|                                                    |
+====================================================*/
+
+#header_outside {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+#header_inside {
+	background: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 960px;
+}
+
+#header_left {
+	width: 545px;
+	height: 100px;
+	padding: 20px 0;
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#header_left h1 {
+	font-size: 34px;
+	line-height:34px;
+	margin: 35px 0 10px 0;
+/*	text-shadow: 1px 1px 1px #fff; */
+}
+
+#header_left h2 {
+	font-size: 16px;
+	line-height:16px;
+	margin: 0;
+	letter-spacing: 0.04em;
+	margin-left: 30px;
+	font-style: italic;
+	color:#82400F;
+}
+
+#header_left a:link, #header_left a:visited, #header_left a:active {
+    text-decoration: none;
+    color: #330000; 
+/*    color: #000033; */
+}
+
+#header_left a:hover {
+/*    text-decoration: underline; */
+    color: #330000; 
+/*    color: #000033; */
+}
+
+header-right {
+	width: 335px;
+	height: 100px;
+	padding: 20px 20px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+
+/*====================================================
+|                                                    |
+|                       menu bar                     |
+|                                                    |
+====================================================*/
+
+#menu {
+	background: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 960px; 
+}
+
+#menu ul {
+	padding-left: 0;
+	margin: 0;
+	background: transparent;
+	color: #666;
+	float: left;
+	width: 100%;
+	font-size: 17px;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+	padding: 0.4em 1.2em;
+	background: #D8CABA url(img/tab.jpg) 0 -90px repeat-x;
+	color: #197B30;
+	text-decoration: none;
+	float: left;
+	margin-right: 6px; 
+	border-top: 1px solid #E7DACC;
+}
+
+#menu ul li a:hover {
+	background: #DED1C1 url(img/tab.jpg) 0 -45px repeat-x;
+	color: #197B30;
+	border-top: 1px solid #F1E7DB;
+}
+
+#menu ul li a#current {
+	background: #E4E7DF url(img/tab.jpg) 0 0 repeat-x;
+	color: #330000;
+	border-top: 1px solid #ffffff;	
+}
+
+/* ---------*/
+/* Ajouts Gaius.  */
+/* ---------*/
+
+#menu li.active a  {
+	font-weight: bold;
+}
+
+/* fin des ajouts de menu */
+
+
+/*====================================================
+|                                                    |
+|                       Content                      |
+|                                                    |
+====================================================*/
+
+#content_outside {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+#content_inside {
+	background: #E4E7DF url(img/sidebar.jpg) 0 0 repeat-y;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 960px;
+}
+
+#left_column {
+	width: 645px;
+	padding: 20px 0 20px 0;
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#right_column {
+	width: 235px;
+	padding: 20px 20px;
+	display: inline;
+	float: left;
+	position: relative; 
+}
+
+.post {
+    border-bottom:2px dotted #C1C1B5;
+	margin-bottom: 10px;
+}
+
+.post img {
+	display:block;
+	float: right;
+	padding: 4px;
+	background: #FFFFFF;
+	margin: 5px 0 10px 20px;
+	border: 1px solid #CACABA;
+}
+
+
+/*====================================================
+|                                                    |
+|                       Footer                       |
+|                                                    |
+====================================================*/
+
+#footer_outside {
+	background: transparent url(img/footer.jpg) top center no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#footer_inside {
+	background: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 920px;
+}
+
+#footer_inside a:link, #footer_inside a:visited, #footer_inside a:active {
+    text-decoration: none;
+    color: #B2C59A;
+}
+
+#footer_inside a:hover {
+    text-decoration: underline;
+    color: #B2C59A;
+}
+
+#footer_inside p {
+	text-align: center;
+	color: #C8BDB2;
+}
+
+
+/*====================================================
+|                                                    |
+|                       Other                        |
+|                                                    |
+====================================================*/
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* AJOUTS */
+
+#post .sat img {
+	background-color: #fff;
+	border: 1px solid #a9a9a9;
+	display: block;
+	margin: 0px 10px 6px 10px;
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 120px;
+	height: 90px;
+}
+
+blockquote { 
+	font: italic 16px/22px Georgia, Serif; 
+	padding: 10px;
+	margin: 0 0 2px 10px;
+	background: #eef3f7;
+}

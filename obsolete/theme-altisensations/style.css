@@ -1,0 +1,302 @@
+/*-----------------
+ MON PREMIER THEME |
+-----------------*/
+/*Ce thème est basé sur le theme-lichen voir http://ressources.pluxml.org/?theme38/theme-lichen */
+/*Les images utilisées sont faites par moi et sous licence Creative Commons (by)*/
+/*http://pluxml.altisensations.fr/ */
+/* -------------
+STYLES DE BASE  |
+---------------- */
+/*--Listes--*/
+ul, ol {
+	list-style-type: none;
+}
+/*--Titres--*/
+
+/h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em 0; 
+	font-family:  Lucida Handwriting, Comic sans MS, sans-serif; 
+}
+h1, h2 {font-weight: normal; }
+h1 {	font-size: 3em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1em;}
+
+/* --Liens --*/
+a {
+	color:  #428156;
+	text-decoration: underline;
+}
+a:hover, a:focus {color:  #203f2a;}
+a img {border: none; }
+
+/*----
+ Page |
+ -----*/
+
+
+body {
+	margin: 0;
+	font-family: Lucida Handwriting, Comic sans MS, sans-serif; 
+	font-size: 0.9em; 
+	line-height: 1.25; 
+	color:  #000000;
+	background: url("img/altisensations.jpg") no-repeat center;
+	background-attachment: fixed;
+	background-color:#AE7B42;
+;
+}
+.clearer {clear : both; visibility : hidden; margin : 0; padding : 0;}
+/* ---------------------
+Haut de page (#top)
+--------------------- */
+/*--Conteneur général de l'entête--*/
+#top {
+	background : url(img/header.jpg);
+	width : 100%;
+	}
+	/*--L'entête--*/
+#header {
+	width : 850px;
+	color : #2C2F22;
+	margin : 0 auto; padding : 35px 0 20px 0;
+}
+#header p {
+	display : inline;
+	color :#ffffff;
+	padding : 0 0 0 5px;
+	font-size: 1.2em;
+	}
+#header h1 {
+	margin : 0; 
+	padding : 0;
+	font-weight : normal;
+	letter-spacing : 1px;
+	display : inline;
+	}
+#header h1 a {
+text-decoration: none;
+color: #ffffff;
+}
+#header h1 a:hover {
+	color : #2C2F22;
+	text-decoration: none;
+	}
+	/*--Barre de Menu--*/
+#menu {background : #428156;}
+
+#menu ul {
+	margin : 0 auto; padding : 0;
+	width : 850px;
+	list-style-type : none;
+}
+#menu li {float : left;}
+#menu li a {
+	display : block;
+	padding : 4px 10px;
+	color : #FF6533;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-size : 0.85em;
+	letter-spacing : 1px;
+}
+
+/* --------------------- 
+Paneau latéral (#sidebar)  
+--------------------- */
+#sidebar {
+	float : left;
+	width : 200px;
+	padding : 0;
+	margin : 0;
+
+}
+#sidebar div {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	border-width: 1px;
+	border-color: #428156;
+	border-right-style: solid;
+	
+}
+ /*--Titre des menus de la sidebar--*/
+#sidebar h2 { 
+	margin : 0;
+	padding : 4px 8px;
+}
+/*--Bloc de liste--*/
+#sidebar ul { 
+	margin : 0;
+	padding : 0;
+	font-size: 1em;
+}
+/*--Elément de liste--*/
+#sidebar li {
+	padding : 4px;
+
+	}
+#sidebar li a {
+	color :#333333;
+	padding : 0 0 0 18px;
+	text-decoration : none;
+	font-size : 1em;
+		}
+#sidebar li:hover, #sidebar li.active {background-image: url(img/liste1.jpg) ;}
+#sidebar li a:hover, #sidebar li.active {background-image: url(img/liste1.jpg) ;}
+
+
+
+/*-------------------------
+Bloc de contenu 
+---------------------------*/
+/*--Conteneur principal--*/
+#page {
+	width : 850px;
+	margin : 0 auto 0 auto;
+	padding : 0 0 0 0;
+	background : url(img/fond_page1.png) repeat-y;
+	clear : both;
+	
+	}
+/*--Conteneur secondaire--*/
+#content { 
+	float : right;
+	width : 634px;
+	margin : 0 0 0 0;
+	padding : 8px;
+}
+#content p {margin-top:10px;}
+/*--Conteneur de l'article--*/
+.post { 
+	padding : 0 0 22px 0;
+	color:#333333;
+	}
+/*--Titre de l'article--*/
+.title { 
+	color :#000000;
+	font-size : 1.6em;
+	margin : 0 0 0 0;
+	padding : 4px 0;
+	letter-spacing : 2px;
+	border-bottom : 1px solid #428156;
+}
+.title a {
+	color :#000000;
+	text-decoration : none;
+}
+.title a:hover {	color : #FF4C00;}
+
+.comment_nb {
+	float : right;
+	margin : 0!important;
+	padding : 4px 4px 0 20px;
+	}
+ /*--Conteneur des liens 'page suivante' et 'page précédente'--*/	
+#pagination {
+	text-align : center;
+	margin : 0 0 0 0;
+	padding : 25px 0 10px 0;
+}
+/*------------
+Pied de page |
+-------------*/
+#footer {
+	width :850px;
+	margin : 0 auto 0 auto;
+	text-align : center;
+	font-size : 0.85em;
+	background : #428156;
+	color : #ffffff;
+	padding : 3px 0;
+}
+#footer a {
+	color :  #ffffff;
+	text-decoration : none;
+}
+#footer a:hover {
+		color :#FF6533;
+}
+/* ---------------------
+Formulaire
+--------------------- */
+fieldset {
+	border : 0;
+}
+label {
+	display : block;
+}
+input, textarea {
+	border-left : 1px solid #203f2a;
+	border-top : 1px solid #203f2a;
+	border-right : 1px solid #428156;
+	border-bottom : 1px solid #428156;
+}
+input:focus, textarea:focus {
+	background-image : url(img/fond_page1.png) repeat-y;
+	border-left : 1px solid #428156;
+	border-top : 1px solid #428156;
+	border-right : 1px solid #203f2a;
+	border-bottom : 1px solid #203f2a;
+}
+input[type=submit], input[type=reset] {
+	background-image : url(img/fond_page1.png) repeat-y;
+	}
+input[type=text] {
+	margin : 0 0 0 5px;
+}
+textarea {
+	width : 95%;
+}
+/* -----------
+Commentaires |
+--------------*/
+#comments h2 {
+	color : #000000;
+	font-size : 1.4em;
+	margin : 15px 0 10px 0;
+	padding : 4px 0;
+	letter-spacing : 2px;
+	border-bottom : 1px solid #428156;
+}
+.comment {
+	background : #faff75;
+	margin : 0 0 8px 0;
+	border : 1px solid #203f2a;
+}
+.comment blockquote {
+	padding : 2px 30px 2px 40px;
+	margin : 0;
+}
+.info_comment {
+	background : #faff75;
+	padding : 4px 8px;
+}
+p.message_com {
+	text-align : center;
+	font-weight : bold;
+	color : #000000;
+	margin : 8px 0 0 0;
+	padding : 4px 0;
+}
+#form h2 {
+	color : #00000;
+	font-size : 1.4em;
+	margin : 15px 0 0 0;
+	padding : 4px 0;
+	letter-spacing : 2px;
+	border-bottom : 1px solid #428156;
+}
+
+
+
+
+
+
+
+
+
+
+
+	

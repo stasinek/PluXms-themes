@@ -1,0 +1,358 @@
+/* Theme "defaut" PluXml - Copyright Pluxml.org */  
+
+/* ---------------------
+Html et body
+--------------------- */
+html {
+	font : 75%/1.7em "Lucida sans unicode", Lucida, Tahoma, Arial, sans-serif;
+	color : #B6AEAC;
+	background : #19110F;
+	margin : 0;
+	padding : 0;
+}
+body {
+	margin : 0;
+	padding : 0;
+}
+#page {
+	width : 661px;
+	margin : 0 auto 0 auto;
+	padding : 0 0 0 0;
+}
+
+/* ---------------------
+Styles generaux
+--------------------- */
+h1 { font-size : 2.1em; }
+h2 { font-size : 1.2em; }
+h3 { font-size : 1.1em; margin : 0; padding: 0; }
+p { margin : 0; padding: 0; }
+a { color : #695E5C; text-decoration : none; outline : none; }
+a:hover { color : #7A1000; }
+a:focus { outline : none; }
+.center { text-align : center; }
+.clearer { clear : both; visibility : hidden; margin : 0; padding : 0; }
+
+/* ---------------------
+Formulaire
+--------------------- */
+fieldset {
+	border : 0;
+	margin: 0;
+	padding: 0;
+}
+label {
+	display : block;
+}
+input, textarea {
+	background-color : #261C1A;
+	border-left : 1px solid #40322F;
+	border-top : 1px solid #40322F;
+	border-right : 2px solid #695E5C!important;
+	border-bottom : 1px solid #695E5C;
+	padding: 2px;
+}
+input:focus, textarea:focus {
+	background-color : #F8DEC3;
+	border-left : 1px solid #695E5C;
+	border-top : 1px solid #695E5C;
+	border-right : 1px solid #F4C8A2;
+	border-bottom : 1px solid #F4C8A2;
+	padding: 2px;
+}
+
+/* ---------------------
+Haut de page (#top)
+--------------------- */
+#top {
+	width : 661px;
+	margin : 0 auto;
+}
+#header {
+	width : 661px;
+	height : 98px;
+	background : url("img/logo.png") no-repeat;
+}
+#header h1 { /* Titre et sous-titre du site */
+	margin : 0; padding : 10px 0 0 50px;
+	font-weight : normal;
+	letter-spacing : 3px;
+	color : #FFFFFF;
+}
+#header a {
+	color : #FFFFFF;
+}
+#header h1:first-letter {
+	color: #66993F;
+	font-weight: bold;
+}
+#header p {
+	color : #66993F;
+	padding : 0 0 0 50px;
+}
+#menu {
+	position : relative;
+	top: -30px;
+	left: 30px;
+	margin : 0 0 20px 0;
+	width : 550px;
+}
+#menu ul {
+	margin : 0 auto;
+	padding : 0;
+	width : 610px;
+	list-style-type : none;
+}
+#menu .left li {
+	float : left;
+}
+#menu .right li {
+	float : right;
+}
+#menu li a {
+	display : block;
+	padding : 5px 10px 4px 26px;
+	color :  #FFF;
+	text-decoration : none;
+	font-size : 0.9em;
+	letter-spacing : 2px;
+	background : url("img/icones.png") no-repeat 0 -153px;
+}
+#menu li a:hover, #menu li a.active {
+	background : url("img/icones.png") no-repeat 0 -121px;
+}
+#menu li#static-home { padding-left:5px; }
+#menu li#static-home a {
+	background : url("img/icones.png") no-repeat 0 -90px;
+	padding : 5px 10px 4px 18px;
+	height : 16px;
+}
+#menu li#static-home a.active, #menu li#static-home a:hover {
+	background : url("img/icones.png") no-repeat 0 -58px;
+	padding : 5px 10px 4px 18px;
+	height : 16px;
+}
+#menu ul.right li a {
+	background : url("img/icones.png") no-repeat 0 -249px;
+	padding : 5px 10px 4px 18px;
+}
+#menu ul.right li a:hover {
+	background : url("img/icones.png") no-repeat 0 -217px;
+	padding : 5px 10px 4px 18px;
+}
+
+/* --------------------- 
+Zone de contenu (#content)  
+--------------------- */
+#content { /* Bloc */
+	position: relative;
+	top: -30px;
+	width : 420px;
+	margin : 0;
+	padding : 0;
+	float : left;
+}
+#content .title { /* Titre de l'article */
+	color : #333333;
+	font-size : 1.5em;
+	margin : 0 0 0 0;
+	padding : 0;
+	letter-spacing : 2px;
+	font-weight : lighter;
+}
+#content .title a { /* Lien sur le titre de l'article */
+	color : #333333;
+	text-decoration : none;
+}
+#content .title a:hover {
+	color : #777;
+}
+#content .post {
+	background : #261C1A;
+	border : 1px solid #40322F;
+	margin : 5px 0 20px 0;
+	clear : both;
+	padding : 5px 7px 5px 7px;
+	text-align : justify;
+}
+#content .post p {
+	padding : 4px 0 4px 0;
+}
+#content p.date {
+	float : right;
+	margin : -20px 0 0 0;
+}
+#content p.date span {
+	font-size : 3.0em;
+}
+#content p.cat {
+	float : left;
+	margin : 0;
+	padding : 0;
+}
+#content p.cat span a, #content p.cat span{ color: #66993F; }
+#content .feed_categorie, #content .feed_article {
+	clear : both;
+	padding : 0;
+	text-align : center;
+}
+#content .feed_categorie a, #content .feed_article a {
+	color : #333;
+	background : url("img/icones.png") no-repeat 0 -254px;
+	padding : 4px 0 4px 20px;
+	height : 20px;
+}
+#content .feed_categorie a:hover, #content .feed_article a:hover { color : #777; }
+#pagination { /* Conteneur des liens 'page suivante' et 'page precedente' */
+	text-align : center;
+	margin : 10px 0 0 0;
+	padding : 0;
+}
+#pagination a { color : #333; }
+#pagination a:hover { color : #777; }
+
+/* --------------------- 
+Paneau lateral (#sidebar)  
+--------------------- */
+#sidebar {
+	position: relative;
+	top: -30px;
+	float : right;
+	width : 230px;
+}
+#sidebar div {
+	margin : 0 0 0 0;
+	padding : 0;
+	width : 100%;
+}
+#sidebar h2 { /* Titre des menus de la sidebar */
+	color : #FFFFFF;
+	font-size : 1.1em;
+	margin : 0;
+	padding : 6px 4px 6px 26px;
+	height: 20px;
+}
+#sidebar ul { /* Bloc de liste */
+	margin : 0 0 20px 0;
+	padding : 0;
+	border : 1px solid #40322F;
+	border-top : none;
+}
+#sidebar li { /* Element de liste */
+	list-style-type : none;
+	padding : 6px 10px 6px 10px;
+	border-top : 1px solid #40322F;
+}
+#sidebar li a { /* Liens dans les listes */
+	padding : 0;
+	text-decoration : none;
+	color : #695E5C;
+	display : block;
+}
+#sidebar .item-1 h2 { background : #40322F url("img/icones.png") no-repeat 6px -24px; }
+#sidebar .item-2 h2 { background : #40322F url("img/icones.png") no-repeat 6px -184px; }
+#sidebar .item-3 h2 { background : #40322F url("img/icones.png") no-repeat 6px 8px; }
+#sidebar .item-4 h2 { background : #40322F url("img/icones.png") no-repeat 6px 8px; }
+#sidebar .item-1 li { background : #261C1A; }
+#sidebar .item-2 li { background : #261C1A; }
+#sidebar .item-3 li { background : #261C1A; }
+#sidebar .item-4 li { background : #261C1A; }
+
+/* ---------------------
+Commentaires (#comments)
+--------------------- */
+#comments h2 {
+	color : #333333;
+	font-size : 1.5em;
+	margin : 0 0 10px 0;
+	padding : 0;
+	letter-spacing : 2px;
+	font-weight : lighter;
+}
+#comments .comment {
+	background : #261C1A;
+	margin : 0 0 8px 0;
+	border : 1px solid #40322F;
+}
+#comments .comment blockquote {
+	padding : 0;
+	margin : 0;
+}
+#comments .comment .info_comment {
+	border-bottom : 1px solid #40322F;
+	color : #FFFFFF;
+	padding : 2px 4px;
+}
+#comments .comment .info_comment a { color : #FFFFFF; }
+#comments .type-normal .info_comment { background : #40322F; }
+#comments .type-admin .info_comment { background : #713333; }
+#comments .comment .content_com { padding : 2px 4px; }
+#form h2 {
+	color : #333333;
+	font-size : 1.5em;
+	margin : 0 0 0 0;
+	padding : 0;
+	letter-spacing : 2px;
+	font-weight : lighter;
+}
+#form p.message_com {
+	text-align : center;
+	font-weight : bold;
+	color : #333;
+	margin : 8px 0 0 0;
+	padding : 4px 0;
+}
+#form .form_left {
+	float : left;
+	margin : 0 20px 0 0;
+}
+#form textarea {
+	width : 397px;
+	height : 115px;
+	margin : 0;
+} 
+#form .button{ margin : 10px 0 0 0; }
+
+#form input[type=submit] {
+	font : 95%/1.7em "Lucida sans unicode", Lucida, Tahoma, Arial, sans-serif;
+	color : #C23000;
+	margin-top: 10px;
+	background : #261C1A url("img/icones.png") no-repeat 4px -283px;
+	padding : 2px 40px 5px 30px;
+	height : 26px;
+}
+#form input[type=reset] {
+	font : 95%/1.7em "Lucida sans unicode", Lucida, Tahoma, Arial, sans-serif;
+	color : #C23000;
+	background : #261C1A url("img/icones.png") no-repeat 4px -315px;
+	padding : 2px 40px 5px 30px;
+	height : 26px;
+}
+
+/* ---------------------
+Pied de page (#footer)
+--------------------- */
+#footer {
+	width : 661px;
+	margin : auto;
+	background : #4C4C4C url('img/menu.png') no-repeat left;
+	color : #B6AEAC;
+	height : 30px;
+	clear : both;
+}
+#footer p {
+	float : left;
+	padding : 4px 8px;
+}
+#footer p.right {
+	float : right;
+	padding: 4px 8px;
+}
+#footer a {
+	color : #40322F;
+	text-decoration : none;
+}
+#footer a:hover {
+	border-bottom : 1px dashed;
+	color : #40322F;
+}

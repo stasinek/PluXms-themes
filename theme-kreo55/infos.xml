@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<title><![CDATA[Kreo55]]></title>
+	<author><![CDATA[PluXml]]></author>
+	<version>5.5</version>
+	<date>05/20/2016</date>
+	<site>http://forum.pluxml.org/viewtopic.php?id=5321</site>
+	<description><![CDATA[Thème de type one-page avec une modification pour produire les pages d'articles séparément.  Le thème comprend l'utilitaire de manipulation d'images cImage pour opérer le rognage et quelques autres effets sans modifier le fichier original des images chargées en une seule copie.  La section de contact est maintenant fonctionnelle, il ne manque qu'à ouvrir le fichier home.php et de modifier l'adresse de courriel pour recevoir les messages.]]></description>
+</document>

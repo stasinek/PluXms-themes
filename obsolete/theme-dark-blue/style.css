@@ -1,0 +1,88 @@
+html{margin:0; padding:0}
+body{font:12px Helvetica,Arial,sans-serif; color:#ccc; margin:0; padding:0; background:#111 url(img/bg_body.png) top left repeat-x;}
+#wrapper {width: 100%; background: transparent url(img/bg_wrap.png) top center repeat-x; padding-top: 39px;}
+#page{width:670px; margin:0 auto; padding:15px; background: url(img/bg_page.png) top left repeat; clear:both}
+#inner {width:640px; padding:15px; background: url(img/bg_inner.png) top left repeat;}
+.clear{clear:both}
+a, img a, a img {outline: none;}
+h1{font-size:29px}
+h2{font-size:24px; margin:0; font-weight:normal}
+h3{font-size:20px; margin:0; padding:0}
+.gris {color: #555; font-size: 10px}
+a{color:#00a0b4; text-decoration:none}
+a:hover{color:#ccc}
+#right a{color:#555; font-size:14px}
+#right a:hover,#right a.active{color:#00a0b4}
+label{display:block}
+input, textarea{border:1px solid #555; background: transparent; color: #ddd}
+input.button{font-weight:bold; color: #ccc; padding: 2px 5px}
+input.input{width:300px; margin-bottom:10px}
+textarea.textarea{width:380px; height:150px; margin-bottom:10px}
+#form{padding-left:20px;border-left:2px solid #027a89}
+#top{width:640px;}
+#header{width:620px; height:100px; color:#482018; margin:0 auto; padding:35px 0 15px 0}
+#header h1{margin:0; padding:0; font-weight:normal; color:#eee;}
+#header h1 {background: url(img/logo.png) 0 1px no-repeat; padding-left: 30px}
+#top h1 a{text-decoration:none; color:#fff}
+#top h1 a:hover{color:#fff}
+#header p{color:#666; padding: 0 0 0 31px; margin: 0}
+#menu{width:640px; margin:0 auto}
+#menu ul{margin:0 auto; padding:0; width:640px; list-style-type:none}
+#menu li{float:right}
+#menu li a{display:block; padding:0 10px; color: #bbb; font-weight:normal; text-decoration:none; text-transform:uppercase; font-size:14px}
+#menu li a:hover,  #menu li.active a{color: #00a0b4}
+#content{float:left; width:430px; padding: 0 0 0 5px; text-align: justify;}
+#content p{margin-top:10px; line-height: 18px;}
+#content p.blockquote { padding-left: 10px; margin-left: 10px; border-left: 4px solid #333 }
+#content ul li { padding: 6px 0;}
+.post{padding:5px 0 22px 0;  border-top: 2px solid #027a89}
+.title{color:#ccc; font-size:24px; font-weight:normal; margin:0; padding:4px 0}
+.title a{color:#ccc; text-decoration:none}
+.comment_nb{float:right; background:url(img/com.png) no-repeat 0 6px; padding:2px 4px 0 23px;}
+#pagination{text-align:center; margin:0; padding:20px 0 10px 0; color: #666}
+#right{float:left; width:180px; padding:0; margin-left:20px;}
+#right div{border-top: 2px solid #027a89; margin-bottom: 30px;}
+#right h2{font-size:16px; color:#00a0b4; text-transform:uppercase; padding:4px 8px 4px 0}
+#right ul{list-style:none; padding:0; margin:0}
+#right ul li{padding:5px 0 5px 15px; background:url(img/puce.png) 0 8px no-repeat}
+#right ul.rss li{padding:5px 0 5px 20px; background:url(img/rss.png) 0 5px no-repeat}
+#comments h2{color:#00a0b4; font-size:16px; margin:15px 0 10px 0; background:url(img/com.png) no-repeat 0 8px; padding:4px 0 4px 20px}
+.comment{margin:0 0 8px 0; border:1px solid #111}
+.comment blockquote{padding:2px 30px 2px 40px; margin:0}
+.info_comment{padding:4px 8px}
+p.message_com{text-align:center; font-weight:bold; color:#f00; margin:8px 0 0 0; padding:4px 0}
+#form h2{color:#00a0b4; font-size:16px; margin:15px 0 0 0; padding:4px 0}
+#footer{width:700px; margin:0 auto; text-align:right; font-size:10px; color:#444;}
+#footer a{color:#17393d; text-decoration:none}
+#footer a:hover{color:#fff;}
+/* ---------------------
+Tags
+--------------------- */
+.info_bottom a {
+	padding-right: 10px;
+	text-decoration : none;
+}
+.info_bottom a.active {
+	font-weight : bold;
+	color : #b50000;
+}
+/* ---------------------
+Capcha
+--------------------- */
+.capcha-letter {
+	font-weight : bold;
+	color : #00a0b4;
+}
+.capcha-word {
+	padding:5px;
+	background:#212121; 
+	border:1px solid #333;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	color:#fff;
+	font-size:1.1em;
+	font-style:italic;
+	font-weight:bold;
+	letter-spacing:2px;
+}

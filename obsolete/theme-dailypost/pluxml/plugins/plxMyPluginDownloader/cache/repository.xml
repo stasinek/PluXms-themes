@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<plugin>
+		<title><![CDATA[CKEditor]]></title>
+		<author><![CDATA[Stéphane F. et Francis D.]]></author>
+		<version>1.3.1</version>
+		<date>18/05/2012</date>
+		<site>http://pluxml.org</site>
+		<description><![CDATA[CKEditor 3.6.3 + KCFinder 2.51]]></description>
+		<name>ckeditor</name>
+		<file>http://my-pluxml.googlecode.com/files/ckeditor.1.3.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyAkismet]]></title>
+		<author><![CDATA[Stéphane F.]]></author>
+		<version>1.1.2</version>
+		<date>16/04/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Akismet filters out your comment and track-back spam for you]]></description>
+		<name>plxMyAkismet</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyAkismet.1.1.2.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyAllArchive]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.1.1</version>
+		<date>16/04/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Affiche la liste des archives suivant différents critères dans une page statique]]></description>
+		<name>plxMyAllArchive</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyAllArchive.1.1.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyComRememberMe]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.0</version>
+		<date>04/05/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Mémorise le nom, le site et l'adresse email du visiteur qui laisse un commentaire pour qu'il n'ait plus à les saisir]]></description>
+		<name>plxMyComRememberMe</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyComRememberMe.1.0.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyComSmilies]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.1</version>
+		<date>02/01/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Remplace les smilies dans les commentaires par des émoticônes]]></description>
+		<name>plxMyComSmilies</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyComSmilies.1.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyContact]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.5.1</version>
+		<date>13/03/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Ajoute une page de contact à votre PluXml]]></description>
+		<name>plxMyContact</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyContact.1.5.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyFindUser]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.0</version>
+		<date>28/03/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Recherche d'un utilisateur sur la page d'administration des utilisateurs]]></description>
+		<name>plxMyFindUser</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyFindUser.1.0.zip</file>
+	</plugin>
+	<plugin>
+  		<title><![CDATA[MyGoogleAnalytics]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.0</version>
+    	<date>07/01/2011</date>
+    	<site>http://code.google.com/p/my-pluxml/</site>
+    	<description><![CDATA[Analyse d'audience Internet]]></description>
+		<name>plxMyGoogleAnalytics</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyGoogleAnalytics.1.0.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyLoremIpsum]]></title>
+		<author><![CDATA[Stéphane F.]]></author>
+		<version>1.0</version>
+		<date>17/07/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Générateur aléatoire d'articles et de commentaires Lorem Ipsum]]></description>
+		<name>plxMyLoremIpsum</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyLoremIpsum.1.0.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyMailComment]]></title>
+		<author><![CDATA[Stéphane F. and contributors]]></author>
+		<version>1.1</version>
+		<date>20/10/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Envoi un mail à l'auteur d'un article quand un nouveau commentaire est posté]]></description>
+		<name>plxMyMailComment</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyMailComment.1.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyPager]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.0</version>
+		<date>17/04/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Change l'affichage de la pagination]]></description>
+		<name>plxMyPager</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyPager.1.0.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyPluginDownloader]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>BETA 2.0</version>
+		<date>26/05/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Téléchargeur de plugin]]></description>
+		<name>plxMyPluginDownloader</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyPluginDownloader.beta.2.0.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyPrivateStatic]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.1</version>
+		<date>05/04/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Protection de l'accès aux pages statiques par mot de passe]]></description>
+		<name>plxMyPrivateStatic</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyPrivateStatic.1.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyRescueData]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.1</version>
+		<date>06/12/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Save article and static page forms data to LocalStorage to restore them after browser crashes, tabs closings and other disasters]]></description>
+		<name>plxMyRescueData</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyRescueData.1.1.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MySearch]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.1.3</version>
+		<date>20/04/2012</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Moteur de recherche dans les articles et les pages statiques]]></description>
+		<name>plxMySearch</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMySearch.1.1.3.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MySkinSelect]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.0.2</version>
+		<date>30/10/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Permet d'installer un sélecteur de thèmes pour que les visiteurs puissent choisir leur thème]]></description>
+		<name>plxMySkinSelect</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMySkinSelect.1.0.2.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MySnowFlakes]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.0</version>
+		<date>06/11/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Flocons de neige]]></description>
+		<name>plxMySnowFlakes</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMySnowFlakes.1.0.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MySocialButtons]]></title>
+		<author><![CDATA[Stephane F.]]></author>
+		<version>1.2</version>
+		<date>08/12/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Affiche les boutons sociaux Facebook, Twitter et Google+1]]></description>
+		<name>plxMySocialButtons</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMySocialButtons.1.2.zip</file>
+	</plugin>
+	<plugin>
+		<title><![CDATA[MyZipDownload]]></title>
+		<author><![CDATA[Stéphane F.]]></author>
+		<version>1.1</version>
+		<date>08/12/2011</date>
+		<site>http://code.google.com/p/my-pluxml/</site>
+		<description><![CDATA[Zippe à la volée un fichier à télécharger avant de l'envoyer à un utilisateur]]></description>
+		<name>plxMyZipDownload</name>
+		<file>http://my-pluxml.googlecode.com/files/plxMyZipDownload.1.1..zip</file>
+	</plugin>
+</document>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<title><![CDATA[plxMetaVerif]]></title>
+	<author><![CDATA[Cyril MAGUIRE]]></author>
+	<version>1.0</version>
+	<date>28/09/2011</date>
+	<site>http://www.ecyseo.com/</site>
+	<description><![CDATA[Permet de placer une balise méta afin que les moteurs de recherche Google et Bing vérifient que le site appartient bien à son propriétaire]]></description>
+	<requirements></requirements>
+</document>

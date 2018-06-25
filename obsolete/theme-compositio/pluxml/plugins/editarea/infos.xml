@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<title><![CDATA[EditArea 0.8.2]]></title>
+	<author><![CDATA[Christophe Dolivet (scripts) / Cyril Maguire (plugin)]]></author>
+	<version>1.0</version>
+	<date>18/07/2011</date>
+	<site>http://www.cdolivet.com/editarea/?page=editArea</site>
+	<description><![CDATA[EditArea, a free javascript editor for source code.]]></description>
+	<requirements></requirements>
+</document>

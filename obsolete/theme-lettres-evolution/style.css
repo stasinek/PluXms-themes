@@ -1,0 +1,148 @@
+body {
+	background: #FEFEFE;
+	background-image : url('body2.GIF');
+	background-repeat : repeat-y;
+	color: #333333;
+	width: 900px;
+	margin: 50px;
+	font-family: "Trebuchet MS", Georgia, "DejaVu Serif", serif;
+	text-align: justify;
+}
+
+#content {
+	float: right;
+	width: 650px;
+	margin-bottom: 50px;
+	font-size : 0.8em;
+	border-top: 1px solid #333333;
+}
+
+#content img {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#content .title, #content .title a {
+	border-top : 1px dotted grey;
+	border-bottom : 1px dotted grey;
+	background-color : #efefef;
+	padding : 5px;
+	color : grey;
+	font-variant : small-caps;
+}
+
+.post {
+	/* border-bottom: 1px solid #333333; */
+	margin: 10px;
+}
+
+#pagination {
+	text-align: center;
+}
+
+#sidebar {
+	position: fixed;
+	width: 200px;
+	font-size: 0.9em;
+}
+
+#sidebar h2 {
+	color : grey;
+	font-size :  1.1em;
+	font-family: Georgia, "DejaVu Serif", serif;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid #333333;
+}
+
+#header {
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	text-align : center;
+	font-family: Georgia, "DejaVu Serif", serif;
+}
+
+h1 a {
+	text-transform: uppercase;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight : bold;
+}
+
+.nbcom {
+	text-align: right;
+	padding: 10px;
+	margin: 10px;
+	clear: both;
+}
+
+#comments, #form {
+width : 650px;
+padding : 10px;
+}
+
+#comments h2, #form h2 {
+	width : 630px;	
+	padding : 5px;
+	color : grey;
+	display : block;
+	border-top : 1px dotted grey;
+	border-bottom : 1px dotted grey;
+	background-color : #efefef;
+	font-variant : small-caps;
+}
+
+.info_comment {
+	text-align : right;
+	padding-right : 15px;
+	border-bottom : 1px dotted grey;
+}
+
+.comment {
+	width : 630px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 15px;
+	background-color : #efefef;
+	border : 1px solid grey;
+	font-family: Georgia, "DejaVu Serif", serif;	
+}
+
+.feed_article {
+	text-align : right;
+	padding : 10px;
+}
+
+#form form {
+	width : 630px;
+	margin-left : 5px;
+	text-align : left;
+}
+
+form input, form textarea {
+	border : 1px solid #cdcdcd;
+	background-color : #efefef;
+	padding : 5px;
+	font-family : Georgia, "DejaVu Serif", serif;
+}
+
+form input:hover, form textarea:hover {
+	background-color : #FFFFFF;
+}
+
+#credits {
+	text-align: center;
+	font-size: 0.8em;
+	border-bottom: 1px solid #333333;
+}

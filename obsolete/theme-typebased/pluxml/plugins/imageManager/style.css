@@ -1,0 +1,35 @@
+#custom-image {
+	float:left;
+	padding:5px 0 ;
+	min-width:500px;
+}
+#custom-image-form {
+	padding:5px 0 5px 25px ;
+	float:left;
+	width:230px;
+}
+#custom-image-form  p.field_head {
+	margin-top:20px;
+	margin-right:0;
+}
+#custom-image-form  h3  {
+	padding:1.5em 0 0.5em 0 ;
+	margin:0;
+}
+#custom-image-form  h3 span.image_form_info  {
+	font-size:11px;
+	font-weight:normal ;
+}
+#custom-image-form  input.image_dimension, #custom-image-form  input.image_rename {
+	padding-bottom:1px !important;
+	padding-top:1px !important;
+}
+#custom-image-form  p.image_form_validation {
+	padding:0 ;
+	float:right;
+	font-weight:bold;
+}
+#custom-image-help {
+	clear:both;
+	padding-top:10px;
+}

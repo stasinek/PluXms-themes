@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<parameter name="mnuName" type="string">Archives</parameter>
+	<parameter name="mnuPos" type="numeric">2</parameter>
+	<parameter name="template" type="string">static.php</parameter>
+	<parameter name="sortby" type="string">by_year_desc</parameter>
+	<parameter name="format" type="string">#art_date : #art_link par #art_author</parameter>
+	<parameter name="sort" type="string">rsort</parameter>
+	<parameter name="exclude" type="string"></parameter>
+</document>

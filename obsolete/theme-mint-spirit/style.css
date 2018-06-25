@@ -1,0 +1,164 @@
+/* CSS par dig^^ pour http://www.kits-gratuits.net/ */
+
+* { margin:0;padding:0; }
+
+body {
+	background:url(img/bg.png);
+	font:normal 0.7em "Trebuchet MS", Verdana, Tahoma, Sans-serif;
+	color:#5B5252;
+}
+
+#page {
+	width:335px;
+	background:url(img/bg_page.png) repeat-y;
+	margin:20px auto;
+}
+
+#header {
+	background:url(img/header.jpg) top left no-repeat;
+	width:335px;
+	height:218px;
+}
+
+#header h1 a {
+	position: relative;
+	top: 15px;
+	left: 15px;
+
+	font-family: Verdana, sans-serif;
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header span {
+	position: relative;
+	top: 5px;
+	left: 15px;
+
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+ul#menu {
+	list-style-type:none;
+	text-align:right;
+	margin-top:15px;
+}
+
+ul#menu li {
+	margin-right:8px;
+	height:25px;
+}
+
+ul#menu acronym { border:0; }
+
+ul#menu a {
+	text-decoration:none;
+	padding:0 3px 0 10px;
+	color:#18210A;
+	display:block;
+	width:305px;
+	float:right;
+	text-transform:lowercase;
+}
+
+ul#menu a:hover {
+	text-decoration:none;
+	color:black;
+	text-transform:lowercase;
+	border-left:3px solid white;
+}
+
+h2 a {
+	padding-left: 10px;
+
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	color: #4F8CCB;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.gris {
+	padding-left: 10px;
+
+	font-family: Verdana, sans-serif;
+	font-size: 10px;
+	color: #989898;
+}
+
+blockquote {
+	padding-left: 10px;
+
+}
+
+.comment_nb a {
+	padding-left: 10px;
+	
+	font-weight: bold;
+}
+
+a {
+	font-family: Verdana, sans-serif;
+	font-size: 10px;
+	color: #989898;
+}
+
+p {
+	padding:10px;
+	text-align:justify;
+}
+
+p#copyright {
+	background:url(img/bas_page.png) bottom left no-repeat;
+	width:335px;
+	height:34px;
+	padding-top:20px;
+	text-align:center;
+}
+
+
+
+
+#article {
+	padding-bottom: 25px;
+}
+
+
+
+
+/* forms */
+
+form {
+	padding-left: 10px;
+}
+
+label {
+	width: 100px;
+	float: left;
+	margin-top: 2px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	padding: 3px;
+	
+	width: 175px;
+	height: 15px;
+}
+
+input[type="submit"] {
+	width: 185px;
+	height: 30px;
+}
+
+textarea {
+	width: 177px;
+	height: 125px;
+}

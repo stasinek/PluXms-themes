@@ -1,0 +1,56 @@
+Dans le fichier class.plx.utils.php, à partir de la ligne 88, remplacer :
+	
+	function dateIsoToHum($date) {
+
+		# On decoupe notre date
+		$year = substr($date, 0, 4);
+		$month = substr($date, 5, 2);
+		$day = substr($date, 8, 2);
+		$day_num = date('w',mktime(0,0,0,$month,$day,$year));
+		# On genere nos tableaux de traduction
+
+		# On retourne notre date au format humain
+		return plxUtils::getCalendar('day',$day_num).' '.$day.' '.plxUtils::getCalendar('month', $month).' '.$year;
+	}
+
+par :
+
+	function dateIsoToHum($date) {
+
+		# On decoupe notre date
+		$year = substr($date, 0, 4);
+		$month = substr($date, 5, 2);
+		$day = substr($date, 8, 2);
+		$day_num = date('w',mktime(0,0,0,$month,$day,$year));
+		# On genere nos tableaux de traduction
+
+		return $day.'</div><div class="mois">'.plxUtils::getCalendar('month', $month).'</div><div class="annee">'.$year;
+	}
+	
+	function dateIsoToHum2($date) {
+
+		# On decoupe notre date
+		$year = substr($date, 0, 4);
+		$month = substr($date, 5, 2);
+		$day = substr($date, 8, 2);
+		$day_num = date('w',mktime(0,0,0,$month,$day,$year));
+		# On genere nos tableaux de traduction
+
+		# On retourne notre date au format humain
+		return plxUtils::getCalendar('day',$day_num).' '.$day.' '.plxUtils::getCalendar('month', $month).' '.$year;
+	}
+	
+	
+puis dans le fichier class.plx.show.php, à partir de la ligne 584, remplacer :
+
+	function comDate() {
+
+		echo plxUtils::dateIsoToHum($this->plxMotor->plxRecord_coms->f('date')).' &agrave; '.plxUtils::heureIsoToHum($this->plxMotor->plxRecord_coms->f('date'));
+	}
+
+par :
+
+	function comDate() {
+
+		echo plxUtils::dateIsoToHum2($this->plxMotor->plxRecord_coms->f('date')).' &agrave; '.plxUtils::heureIsoToHum($this->plxMotor->plxRecord_coms->f('date'));
+	}

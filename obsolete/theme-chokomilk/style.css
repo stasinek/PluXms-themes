@@ -1,0 +1,91 @@
+/* CSS du thème graphique 'ChokoMilk' pour Pluxml par kloobik.org*/
+
+html {font-size : 75%;
+	font-family : Tahoma, Helvetica, Arial, sans-serif;
+	text-align: justify;
+	color : #000;
+	background : url(img/fond_page.jpg) repeat-x top center #BFB9A1;}
+body {width : 589px;
+	margin : auto; padding : 0;
+	background : url(img/fond_contenu.jpg) repeat-y center;}
+#global {padding : 30px 0 10px 0;}
+	
+/* Styles généraux */
+h1 {font-size : 1.6em;
+	color:#FFF;}
+h2 {font-size : 1.2em;}
+h3 {font-size : 1.1em; padding : 5px 0; margin : 0;}
+p {margin : 0; padding : 3px 10px 3px 0;}
+a {color : #FFF;}
+a:hover {color : #000;}
+hr {clear : both; visibility : hidden; margin : 0; padding : 0;}
+
+/* Entete du site */
+#top {height : 206px;
+	background : url(img/entete.jpg) no-repeat;}
+
+/* Zone de contenu de gauche*/
+#content { /* Bloc */
+	float : left;
+	width : 355px;
+	margin-left: 40px;	}
+.post { /* Conteneur de l'article */
+	padding : 0 0 35px 10px;}
+.articletitle { /* Titre de l'article */
+	color : #000;
+	font-size : 1.5em;
+	font-weight : bold;
+	margin : 0; padding : 3px 0 0 0;}
+.articletitle a{ /* Lien sur le titre de l'article */
+	color : #000;
+	text-decoration : none;
+	border-bottom: 1px #FFF dotted;}
+.articletitle a:hover{
+	color : #FFF;
+	text-decoration:none;
+	border-bottom: 1px #FFF dotted;
+	}
+.post-info { /* Informations de l'article (auteur, date etc...) */
+	color : #FFF;
+	margin : 2px 0 4px 0; padding : 0;}
+.post-info a{color : #FFF;
+	text-decoration:none;}
+.post-info a:hover {color : #FFF;
+	text-decoration:none;
+	border-bottom: 1px #FFF dotted;}
+#pagination { /* Conteneur des liens 'page suivante' et 'page précédente' */
+	margin-top : 10px;
+	text-align : center;}
+	
+/* Menu de droite */
+#sidebar {
+	float : right;
+	width : 162px;
+	margin-right: 10px;
+	text-align: left;}
+#sidebar div {	margin : 8px 0 ;}
+#sidebar h2 { /* Titre des menus de la sidebar */
+	font-size : 1.1em;
+	margin : 0; padding : 3px 0 3px 10px;
+	font-weight : normal;}
+#sidebar ul { /* bloc de liste */
+	margin : 0; padding : 6px 0;}
+#sidebar li { /* élément de liste */
+	list-style-type : none;
+	padding: 2px 0 2px 30px;}
+#sidebar li a { /* Liens dans les listes */
+	color : #fff;
+	text-decoration : none;}
+#sidebar li a:hover {color : #000;
+	text-decoration:none;
+	border-bottom: 1px #FFF dotted;}
+
+/* Pied de page (#footer) */
+#basdepage {
+	text-align : center;
+	width : 500px;
+	margin-left : -25px; 
+	padding-top : 10px;
+	padding-bottom : 10px;
+	font-size : 1.00em;
+}

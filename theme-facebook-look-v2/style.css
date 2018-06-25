@@ -1,0 +1,890 @@
+/*  
+Theme Name: Facebook Look
+Theme URI: http://wordpress.org/
+Description: This theme designed based on Facebook, the most popular social network in the world.
+Tags: three-columns,white,blue,left-sidebar,right-sidebar
+Version: 2.0
+Author: Free WP Themes
+Author URI: http://themes.diameter.web.id
+	
+	Facebook Look 2
+	http://themes.diameter.web.id/
+
+	This theme designed by Ian Budi Kurniawan,
+	whose gallery you can will find at http://themes.diameter.web.id/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+/* Main Structure */
+
+body {
+	font: 13px "lucida grande",tahoma,verdana,arial,sans-serif;
+	background: #fff;
+	color: #333;
+	margin: 0;
+	}
+	
+#header {
+	width: 980px;
+	margin: 0 auto 15px auto;
+	padding: 0;
+	}
+	
+#footer { 
+	border-top: 1px #999 solid;
+	padding: 6px 1px 40px 1px;
+	margin: 20px auto 0 auto;
+	width: 980px;
+	clear: both;
+	}
+	
+#content {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+
+/* Navigation Bar */
+	
+#navbar {
+	margin: 0 auto;
+	height: 28px;
+	padding: 0;
+	background: #3b5998 url('images/navbg.gif') bottom no-repeat;
+	}
+
+#navbar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+
+#navbar ul li {
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	display: block;
+	font-size: 11px;
+	padding-right: 4px;
+	}
+
+#navbar a, #navbar a:visited {
+	margin: 0;
+	padding: 7px;
+	font-weight: bold;
+	color: #FFF;
+	display:block;
+	text-decoration: none;
+	}
+
+#navbar a:hover, #navbar a.active {
+	text-decoration:none;
+	display: block;
+	background-color: #5c75aa;
+	}
+	
+#navbar .logo a {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 6px 18px 0 10px;
+	}
+	
+#navbar .logo a:hover {
+	background: url('images/home.png') right no-repeat;
+	}
+		
+
+/* Navigation Right */
+
+#navbar ul.navright {
+	float: right;
+	padding-right: 7px;
+	}
+
+#navbar ul.navright a, #navbar ul.navright a:visited {
+	font-weight: normal;
+	padding: 7px 6px;
+	}
+
+li.search {
+	margin: 4px 0 0 5px;
+	width: 170px;
+	}
+	
+#navbar .search .searchinput {
+	float: left;
+	background: #fff;
+	width: 140px;
+	padding: 2px 4px 1px 4px;
+	height: 15px;
+	font-size: 11px;
+	color: #666666;
+	border-right: none;
+	border-top: 1px #ccc solid;
+	border-left: 1px #ccc solid;
+	border-bottom: none;
+	}
+	
+#navbar .search .searchsubmit {
+	float: left;
+	background: #6d84b4 url('images/searchsubmit.png') no-repeat;
+	margin-top: -1px;
+	height: 21px;
+	width: 21px;
+	border: 1px solid #315091;
+	cursor: pointer;
+	}
+
+	
+/* Columns */
+
+#leftcolumn {
+	float: left;
+	padding: 0;
+	margin-right: 15px;
+	width: 580px;
+	}
+	
+#centercolumn {
+	float: left;
+	padding: 0;
+	margin: auto;
+	width: 230px;
+	}
+	
+#doublecolumn {
+	float: left;
+	padding: 0;
+	margin: auto 0;
+	width: 710px;
+	}
+	
+#rightcolumn {
+	float: right;
+	padding: 0;
+	border-left: 1px #ccc solid;
+	width: 140px;
+	}
+	
+	
+/* Home Columns */
+	
+#leftcolumn.home {
+	float: left;
+	padding: 0;
+	margin-right: 20px;
+	width: 150px;
+	}
+	
+#doublecolumn.home {
+	float: left;
+	padding: 0;
+	margin: auto 0;
+	width: 710px;
+	}
+	
+#centercolumn.home {
+	float: left;
+	padding: 0;
+	margin: auto;
+	width: 540px;
+	}
+
+#rightcolumn.home {
+	float: right;
+	padding: 0;
+	width: 250px;
+	border: none;
+	}
+
+	
+/* Announcement (Double) Column */
+
+.announcement-top {
+	background: url('images/announcement-top.gif') top center no-repeat;
+	height: 10px;
+}
+
+.announcement-middle {
+	background: url('images/announcement-middle.gif') top center repeat-y;
+	margin-bottom: 20px;
+}
+
+.announcement-bottom {
+	background: url('images/announcement-bottom.gif') top center no-repeat;
+	height: 10px;
+}
+
+.announcement-text {
+	padding: 0 15px;
+	line-height: 15px;
+	font-size: 11px;
+	}
+	
+.announcement-text .title {
+	border-bottom:5px #edeff4 solid;
+	font-size:13px;
+	font-weight:bold;
+	}
+
+
+/* Posts */
+
+.post {
+	padding-top: 10px;
+	margin: 0;
+	text-align: justify;
+	border-top: 1px #eee solid;
+	display: inline-block;
+	}
+		
+.roundedthumb {
+	width: 54px;
+	height: 54px;
+	float: left;
+	margin-right: 10px;
+	}
+
+.roundedthumb .toplayer {
+	margin-top: -54px;
+	}
+	
+.post .entry {
+	float: right;
+	display: block;
+	width: 475px;
+	}
+	
+.excerpt {
+	margin: -8px 0;
+	}
+
+.post h2 {
+	margin: auto;
+	}
+		
+.post h3 {
+	padding: 0;
+	margin: auto;
+	}
+
+.entry ol, .entry ul {
+	padding: 0 0 0 20px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.entry ul li {
+	list-style: square;
+	}
+
+.post .details {
+        background:#f6f7f8;border-bottom:1px solid #ccd0d6;border-top:1px solid #ccd0d6;color:#677284;font-size:0.9em;margin:1em 0 1em;padding:0.2em 0.5em;text-align:left;
+
+	}
+	
+.post .title {
+	margin-bottom: 3px;
+	font-weight: bold;
+	font-size: 13px;
+	}
+
+.navigation {
+	padding: 5px 10px;
+	height: 15px;
+	background: #eceff5;
+	border-top: 1px #d8dfea solid;
+	margin: 10px 0;
+	font-size: 11px;
+	}
+
+.singlepost .post {
+	border: none;
+	padding: 0;
+	}
+	
+.singlepost .post .entry {
+	width: 570px;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 0 5px;
+	float: none;
+	}
+	
+.post .postdata {
+	font-size: 11px;
+	background: #f7f7f7;
+	padding: 5px;
+	border-bottom: 1px #d8dfea solid;
+	border-top: 1px #3b5998 solid;
+	}
+	
+.post .tags {
+	font-size: 11px;
+	padding: 5px;
+	margin-top: 10px;
+	border-top: 1px #ddd solid;
+	color: #999;
+	}
+	
+
+/* Left Sidebar */
+
+#sidebarL {
+	padding: 0;
+	margin: 0;
+	margin-left: -40px;
+	}
+
+#sidebarL form {
+	margin: 0;
+	}
+	
+#sidebarL ul {
+	list-style: none;
+	margin: 0;
+	}
+
+#sidebarL ul li {
+	font-size: 11px;
+	border-bottom: 1px #d6d9de solid;
+	}
+
+#sidebarL ul li a, #sidebarL ul li a:visited {
+	color: #333;
+	padding: 5px 10px;
+	display: block;
+	}
+	
+#sidebarL ul li a:hover {
+	background: #eceef4;
+	text-decoration: none;
+	}
+
+#sidebarL ul li.selected {
+	background: #8497bf;
+	}
+	
+#sidebarL ul li.selected a, #sidebarL ul li.selected a:visited {
+	color: #fff;
+	border: 1px #45629e solid;
+	}
+	
+#sidebarL ul li.selected a:hover {
+	background: #8497bf;
+	}
+
+
+/* Right Sidebar */
+
+#sidebar {
+	padding: 10px;
+	background: #f7f7f7;
+	border: 1px #ccc solid;
+	}
+	
+#sidebar.home {
+	padding: 0;
+	background: none;
+	border: none;
+	}
+	
+#sidebar.home {
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+	
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	font-size: 11px;
+	}
+
+#sidebar ul li ul, #sidebar ul li ol {
+	margin: 5px 0 10px 0;
+	padding: 0;
+	}
+
+#sidebar ul li ul li, #sidebar ul li ol li {
+	padding: 3px 0px;
+	margin: 0px;
+	font-size: 11px;
+	color: #808080;
+	}
+
+#sidebar ul li ul li a, #sidebar ul li ul li a:visited, #sidebar ul li ol li a, #sidebar ul li ol li a:visited {
+	color: #3b5998;
+	}
+	
+#sidebar ul li ul li a:hover, #sidebar ul li ol li a:hover {
+	text-decoration: underline;
+	}
+	
+#sidebar h2 {
+	font-size: 11px;
+	padding: 4px 0;
+	color: #333;
+	margin: 0;
+	border-bottom: 1px #ccc solid;
+	}
+
+		
+/* Advertisement Zone */
+	
+#adside {
+	width: 135px;
+	border-left: 4px #e5e5e5 solid;
+	}
+
+#adside .adstext {
+	padding: 5px 0px 5px 10px;
+	font-size: 11px;
+	border-bottom: 1px #e5e5e5 solid;
+	}
+	
+#adside .adstext .textwidget {
+	margin-bottom: 5px;
+	}
+	
+#adside .adstext p.title {
+	margin: 5px 0;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+#adside .ads125 {	
+	padding: 10px 0px 10px 10px;
+	border-bottom: 1px #e5e5e5 solid;
+	}
+	
+
+/* Comments */
+	
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+	
+#commentscontainer {
+	width: 360px;
+	float: left;
+	padding-top: 10px;
+	font-size: 11px;
+	background: #fff url('images/comment-top.gif') no-repeat;
+	margin-left: 5px;
+	}
+
+.commentlist {
+	padding: 6px;
+	background: #eceff5;
+	border-bottom: 1px #e5eaf1 solid;
+	margin-bottom: 2px;
+	display: inline-block;
+	}
+
+.commentlist p.info {
+	margin: 0;
+	}
+	
+.roundedavatar {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-right: 8px;
+	background: url('images/noavatar.gif');
+	display: block;
+	}
+
+.roundedavatar .toplayer {
+	margin-left: -32px;
+	}
+	
+.commenttext {
+	float: right;
+	display: block;
+	width: 308px;
+	}
+	
+.commenttext small {
+	color: #999;
+	}
+
+.commenttext .title {
+	margin-top: 1px;
+	}
+	
+.comment-text p {
+	margin: 2px 0;
+	line-height: 15px;
+	}
+	
+#comment {
+	border: 1px #bdc7d8 solid;
+	font: 11px "lucida grande",tahoma,verdana,arial,sans-serif;
+	margin: 2px;
+	padding: 3px;
+	}
+	
+#comment.reg {
+	width: 296px;
+	}
+	
+#comment.un {
+	width: 336px;
+	}
+
+.commentlist .field {
+	width: 160px;
+	margin: 2px;
+	font-size: 11px;
+	border: 1px #bdc7d8 solid;
+	padding: 3px;
+	font: 11px "lucida grande",tahoma,verdana,arial,sans-serif;
+	}
+	
+.commentlist #submit {
+	background: #3b5998;
+	border-top: 1px solid #d9dfea;
+	border-left: 1px solid #d9dfea;
+	border-right: 1px solid #0e1f5b;
+	border-bottom: 1px solid #0e1f5b;
+	font-size: 11px;
+	color: #fff;
+	height: 19px;
+	font: 11px "lucida grande",tahoma,verdana,arial,sans-serif;
+	}
+	
+#submit.reg {
+	display: none;
+	width: 80px;
+	}
+	
+#submit.un {
+	width: 167px;
+	margin: 2px;
+	}
+	
+
+/* Comments Side */
+
+#commentside {
+	width: 200px;
+	margin-top: 10px;
+	float: right;
+	}
+	
+#commentside h2 {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	padding: 4px 0;
+	border-bottom: 1px #ccc solid;
+	}
+	
+#commentside ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+	
+#commentside ul li {
+	margin-bottom: 2px;
+	}
+	
+#commentside ul li ul {
+	list-style: none;
+	margin: 5px 0 10px 0;
+	padding: 0;
+	padding: 0;
+	}
+
+#commentside ul li ul li {
+	font-size: 11px;
+	padding: 3px 0;
+	margin: 0;
+	}
+
+
+/* Search */
+
+#search {
+	width: 350px;
+	height: 25px;
+	}
+	
+#search .searchinput {
+	float: left;
+	background: #fff;
+	width: 280px;
+	padding: 4px;
+	font-size: 11px;
+	color: #666666;
+	border: 1px #94a4c6 solid;
+	}
+	
+#search .searchsubmit {
+	float: right;
+	background: #3b5998 url('images/searchsubmit.png') no-repeat;
+	text-align: right;
+	font: 11px "lucida grande",tahoma,verdana,arial,sans-serif;
+	color: #fff;
+	height: 23px;
+	width: 60px;
+	border-top: 1px #5973a9 solid;
+	border-bottom: 1px #0e1f5b solid;
+	border-right: 1px #0e1f5b solid;
+	border-left: 1px #3b5998 solid;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+	}
+	
+
+/* Archives */
+	
+#archives {
+	border: 1px #b7b7b7 solid;
+	background: #f7f7f7;
+	}
+	
+#archives h2 {
+	margin: 10px 0 5px 10px;
+	}
+	
+.results {
+	background: #fff;
+	border: 1px #ccc solid;
+	padding: 5px;
+	margin: 0 10px 5px 10px;
+	}
+	
+.results h3 {
+	margin: 0;
+	}
+
+.results .details {
+	font-size: 11px;
+	}
+	
+#archives .navigation {
+	border-top: 1px #d8dfea solid;
+	background: #fff;
+	text-align: right;
+	margin: 10px 0 0 0;
+	}
+
+#archives .searchagain {
+	border-top: 1px #d8dfea solid;
+	background: #fff;
+	margin: 0;
+	padding: 10px;
+	}
+	
+#archives .searchagain h2 {
+	margin: 0 0 5px 0;
+	}
+	
+#archives ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	
+#archives ul li {
+	margin: 0;
+	padding: 2px 0;
+	font-size: 11px;
+	}
+	
+
+/* Footer */
+	
+#footer p {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 11px;
+	color: #777;
+	}
+	
+	
+/* General Tags */
+
+hr {
+	display: none;
+	}
+
+a, a:visited {
+	color: #3b5998;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+	
+h2, h3 {
+	font-size: 13px;
+	}
+	
+h2 a, h2 a:visited, h3 a, h3 a:visited {
+	text-decoration: none;
+	color: #3b5998;
+	font-weight: bold;
+	}
+	
+h2 a:hover, h3 a:hover {
+	text-decoration: underline;
+	}
+	
+.alignright {
+	float: right;
+	}
+	
+.alignleft {
+	float: left;
+	}
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #fff;
+	border-left: 5px solid #ccc;
+	font-size: 11px;
+	}
+
+blockquote cite {
+	display: block;
+	}
+	
+code {
+	font: 11px 'Courier New', Courier, Fixed;
+	}
+
+blockcode {
+	font: 11px 'Courier New', Courier, Fixed;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-left: 5px solid #ccc;
+	display: block;
+	margin: 10px 0;
+	}
+
+.center {
+	text-align: center;
+	}
+
+a img {
+	border: none;
+	}
+
+/* Required CSS from Wordpress.org */
+	
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+.clear {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	}
+/* ---------------------
+Tags
+--------------------- */
+.info_bottom a {
+	padding-right: 10px;
+	text-decoration : none;
+}
+.info_bottom a.active {
+	font-weight : bold;
+	color : #b50000;
+}
+#sidebar ul li.active a, .info_bottom li.active a {
+	font-weight : bold;
+	color : #b50000 !important;
+}
+
+/* ---------------------
+Capcha
+--------------------- */
+.capcha-letter {
+	font-weight : bold;
+	color : #b50000;
+}
+.capcha-word {
+	padding:5px;
+	background:#3b5998; 
+	border:1px solid #fff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	color:#fff;
+	font-size:1.1em;
+	font-style:italic;
+	font-weight:bold;
+	letter-spacing:2px;
+}

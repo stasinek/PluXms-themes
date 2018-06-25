@@ -1,0 +1,256 @@
+/* Thème "defaut" Pluxml - Copyright Pluxml.org */  
+
+/* ---------------------
+Html et body
+--------------------- */
+html, * {
+	padding:0;
+	margin:0;}
+	
+body {
+	background-color:#666666;
+	margin:0 auto;
+	font-size:1.0em;
+	color:#303030;
+	font-family:Geneva, Arial, Helvetica, sans-serif;}
+
+#page {
+	background-color:#ffffff;
+	width:70%;
+	padding:0 5px;
+	margin:0 auto;}
+
+/* ---------------------
+Styles généraux
+--------------------- */
+h1 {font-size:3.4em;	text-align:left;	padding-top:20px;	padding-left:30px;	color:#ffffff;	letter-spacing:3px;	font-weight:normal;}
+h2 {font-family:Geneva, Arial, Helvetica, sans-serif; color:#7491A1;}
+h3 {font-size:1.3em;	font-weight:normal;	color:#333333;	border-bottom:1px solid #DDDDDD;}
+h4 {	background-color:#DDDDDD; border-bottom:1px solid #CCCCCC;	padding:5px;	color:#999999;}
+p {margin:2px 0 15px 0;	line-height:1.3em;}
+a {color:#333333;	border-bottom:1px dotted #333333;	text-decoration:none;}
+a:hover {color:#7491A1;	border-bottom:1px solid #7491A1;}
+.clearer {clear : both; visibility : hidden; margin : 0; padding : 0;}
+code {display:block;	border:1px solid #cccccc;	background-color:#dddddd;	padding:15px;	margin:5px;}
+
+/* ---------------------
+Formulaire
+--------------------- */
+fieldset {
+	border : 0;}
+label {
+	display : block;
+}
+input, textarea {
+	border-left : 1px solid #C3C9D0;
+	border-top : 1px solid #C3C9D0;
+	border-right : 1px solid #D4DAE2;
+	border-bottom : 1px solid #D4DAE2;
+}
+input:focus, textarea:focus {
+	background-color : #FFFFFF;
+	border-left : 1px solid #D4DAE2;
+	border-top : 1px solid #D4DAE2;
+	border-right : 1px solid #C3C9D0;
+	border-bottom : 1px solid #C3C9D0;
+}
+input[type=submit], input[type=reset] {
+	background : #D4DAE2;
+	}
+input[type=text] {
+	margin : 0 0 0 5px;
+}
+textarea {
+	width : 95%;
+}
+
+/* Listes */
+
+ul, ol {
+	margin:0 0 5px 30px;}
+
+/* ---------------------
+Haut de page (#top)
+--------------------- */
+
+#top {
+	background-image:url('img/headerbg.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-color:#000000;
+	height:120px;
+	padding:10px;}
+
+#top h1 { /* Titre et sous-titre du site */
+	margin : 0; padding : 0;
+	font-weight : normal;
+	letter-spacing : 1px;
+	color : #eee;
+	display : inline;
+}
+#top h1 a { /* Lien du titre */
+	text-decoration : none;
+	color : #fff;
+}
+#top h1 a:hover {
+	color : #fff;
+	}
+#top p {
+	text-align:left;
+	padding:0 0 0 30px;
+	margin:0;
+	font-size:0.8em;
+	color:#ffffff;
+}
+#menu {
+	background-image:url('img/navbg.jpg');
+	background-repeat:repeat-x;
+	height:71px;}
+#menu ul {
+	margin:0;
+	padding:0;}
+	
+#menu li {
+display:block;
+	float:left;}
+	
+#menu li a {
+	float:left;
+	border:none;
+	padding:25px 15px 0 15px;
+	height:46px;
+	letter-spacing:2px;
+	border-right:1px solid #999999;
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;}
+	
+#menu li a:hover, #menu li.active a {
+	background-color:#333333;
+}
+
+/* --------------------- 
+Zone de contenu (#content)  
+--------------------- */
+#main { /*contient le content et la sidebar */
+padding:20px 10px 0 10px;
+}
+
+#content { /* Bloc */
+	width:67%;
+	float:left;}
+
+.post { /* Conteneur de l'article */
+
+}
+.title { /* Titre de l'article */
+	
+}
+.title a { /* Lien sur le titre de l'article */
+
+}
+.title a:hover {
+
+}
+.post-info {
+	background : url("img/info.gif") no-repeat 0 4px;
+	padding : 8px 20px;
+	color:#C3C9D0;
+	font-size:small;
+	margin : 0!important;
+}
+.feed_article {
+	padding : 0 0 0 25px;
+	text-align : center;
+}
+.comment_nb {
+	float : right;
+	background : url("img/comment.gif") no-repeat 0 6px;
+	margin : 0!important;
+	padding : 4px 4px 0 20px;
+}
+#pagination { /* Conteneur des liens 'page suivante' et 'page précédente' */
+	text-align : center;
+	margin : 0 0 0 0;
+	padding : 25px 0 10px 0;
+}
+
+/* --------------------- 
+Paneau latéral (#sidebar)  
+--------------------- */
+#sidebar {
+width:28%;
+	float:right;}
+
+#sidebar h2 {
+		padding:3px 5px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+#sidebar ul { /* Bloc de liste */
+	list-style:none;
+	margin:7px 12px;}
+	
+#sidebar li { /* Elément de liste */
+	padding:3px 0;}
+	
+/* ---------------------
+Commentaires (#comments)
+--------------------- */
+
+.comment {
+	color:#636363;
+	margin : 0 0 8px 0;
+	border:1px solid #C3C9D0;}
+	
+.comment blockquote {
+	padding : 2px 30px 2px 40px;
+	margin : 0;	
+}
+.info_comment {
+	text-decoration:underline;
+	padding : 4px 8px;
+	color:#C3C9D0;
+	font-size:small;
+}
+p.message_com {
+	text-align : center;
+	font-weight : bold;
+	color : #1F537B;
+	margin : 8px 0 0 0;
+	padding : 4px 0;
+}
+
+/* ---------------------
+Pied de page (#footer)
+--------------------- */
+#footer {
+	padding:20px 5px;
+	background-color:#636363;
+	color:#ffffff;
+}
+#footer p {
+	font-size:0.6em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin:0;
+	padding:5px;
+}
+
+#footer a {
+	color:#ffffff;
+	text-decoration:underline;
+	border:none;
+}
+#footer a:hover {
+	border:none;
+}
+#sidebar ul li a { 
+	color:#999999;
+	border-bottom:1px solid #CCCCCC;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+}
+#sidebar ul li a:hover {
+	background-color:#DDDDDD;
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<parameter name="metagoogle" type="string"></parameter>
+	<parameter name="htmlgoogle" type="string"></parameter>
+	<parameter name="metabing" type="string"></parameter>
+	<parameter name="All_check" type="string"></parameter>
+	<parameter name="All_action" type="string">Allow</parameter>
+	<parameter name="All_rules" type="string"></parameter>
+	<parameter name="Googlebot_check" type="string"></parameter>
+	<parameter name="Googlebot_action" type="string">Allow</parameter>
+	<parameter name="Googlebot_rules" type="string"></parameter>
+	<parameter name="Googlebot-Mobile_check" type="string"></parameter>
+	<parameter name="Googlebot-Mobile_action" type="string">Allow</parameter>
+	<parameter name="Googlebot-Mobile_rules" type="string"></parameter>
+	<parameter name="Googlebot-Image_check" type="string"></parameter>
+	<parameter name="Googlebot-Image_action" type="string">Allow</parameter>
+	<parameter name="Googlebot-Image_rules" type="string"></parameter>
+	<parameter name="Mediapartners-Google_check" type="string"></parameter>
+	<parameter name="Mediapartners-Google_action" type="string">Allow</parameter>
+	<parameter name="Mediapartners-Google_rules" type="string"></parameter>
+	<parameter name="Adsbot-Google_check" type="string"></parameter>
+	<parameter name="Adsbot-Google_action" type="string">Allow</parameter>
+	<parameter name="Adsbot-Google_rules" type="string"></parameter>
+	<parameter name="otherbot_check" type="string"></parameter>
+	<parameter name="otherbot_action" type="string">Allow</parameter>
+	<parameter name="otherbot_rules" type="string"></parameter>
+	<parameter name="otherbot" type="string"></parameter>
+</document>

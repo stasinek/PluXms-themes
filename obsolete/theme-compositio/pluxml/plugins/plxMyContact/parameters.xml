@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<parameter name="mnuDisplay" type="numeric">1</parameter>
+	<parameter name="mnuName" type="string">Contact</parameter>
+	<parameter name="mnuPos" type="numeric">2</parameter>
+	<parameter name="email" type="string">contact@aarch.fr</parameter>
+	<parameter name="subject" type="string">## AARCH ## nouveau contact depuis votre site internet</parameter>
+	<parameter name="thankyou" type="string">Merci de nous avoir contacté. Nous vous répondrons le plus rapidement possible.</parameter>
+	<parameter name="template" type="string">static.php</parameter>
+</document>
