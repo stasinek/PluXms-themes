@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<document>
-	<parameter name="elmt0" type="numeric">1</parameter>
-	<parameter name="elmt1" type="numeric">1</parameter>
-	<parameter name="elmt2" type="numeric">1</parameter>
-	<parameter name="elmt3" type="numeric">1</parameter>
-	<parameter name="elmt4" type="numeric">1</parameter>
-	<parameter name="elmt5" type="numeric">1</parameter>
-</document>

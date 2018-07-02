@@ -1,7 +1,5 @@
 @import url("plucss.css");
 
-
-
 .likes {
 	color: #0F0;
 }
@@ -326,8 +324,8 @@ div.wpcf7 .ajax-loader {
 	padding: 0;
 	margin: 0 0 0 4px;
 	vertical-align: middle;
-}
 
+	}
 div.wpcf7 .ajax-loader.is-active {
 	visibility: visible;
 }

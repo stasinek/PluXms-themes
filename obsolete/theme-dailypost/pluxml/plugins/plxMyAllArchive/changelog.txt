@@ -1,9 +1,0 @@
-## Version 1.1.1 (16/04/2012) ##
-Mise à jour pour PluXml 5.1.6
-Encodage des fichiers en UTF-8 sans BOM
-
-## Version 1.1 (30/09/2011) ##
-[+] Ajout exclusion de categories
-
-## Version 1.0 (28/09/2011) ##
-version initiale

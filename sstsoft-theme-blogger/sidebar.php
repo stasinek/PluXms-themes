@@ -7,8 +7,8 @@
                 </form>
             </div-->
             <div class="sidebar-widget widget_wpex_get_total clr">
-                <a href="http://sstsoft.pl" title="HOME" target="_blank">
-					<img src="http://sstsoft.pl/common/images/menu/IMG_1262.jpg" alt="Banner" />
+                <a href="https://sstsoft.pl" title="HOME" target="_blank">
+					<img src="https://sstsoft.pl/common/images/menu/IMG_1262.jpg" alt="Banner" />
 				</a>
             </div>
             <div class="sidebar-widget widget_recent_entries clr">

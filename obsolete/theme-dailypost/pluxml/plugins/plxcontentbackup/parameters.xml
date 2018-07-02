@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<document>
-	<parameter name="savedir" type="string">../../sauvegarde/</parameter>
-	<parameter name="days" type="numeric">14</parameter>
-	<parameter name="email" type="string">sauvegarde@aarch.fr</parameter>
-	<parameter name="senderemail" type="string">backup@aarch.fr</parameter>
-	<parameter name="sendername" type="string">Site AARCH</parameter>
-	<parameter name="saved_dirs" type="string">data/articles/,data/commentaires/,data/statiques/,data/configuration/categories.xml,data/configuration/statiques.xml,data/configuration/tags.xml,data/configuration/plugins.xml</parameter>
-</document>
