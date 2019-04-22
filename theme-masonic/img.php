@@ -2113,7 +2113,7 @@ class CImage
 
         // Only use a specified area of the image, $this->offset is defining the area to use
         if (isset($this->offset)) {
-
+
             $this->log("Offset for area to use, cropping it width={$this->offset['width']}, height={$this->offset['height']}, start_x={$this->offset['left']}, start_y={$this->offset['top']}");
             $img = $this->CreateImageKeepTransparency($this->offset['width'], $this->offset['height']);
             imagecopy($img, $this->image, 0, 0, $this->offset['left'], $this->offset['top'], $this->offset['width'], $this->offset['height']);
@@ -3268,7 +3268,7 @@ function verbose($msg = null)
     $log[] = $msg;
 }
 
-
+
 
 /**
  * Get configuration options from file, if the file exists, else use $config
